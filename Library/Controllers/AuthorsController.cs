@@ -27,6 +27,19 @@ namespace Library.Controllers
             return await _context.Authors.ToListAsync();
         }
 
+
+        [HttpGet("{id}")]
+        [ApiExplorerSettings(IgnoreApi = true)]
+        public async Task<ActionResult<Author>> GetAuthor(int id)
+        {
+            var author = await _context.Authors.FindAsync(id);
+            if (author == null)
+            {
+                return NotFound();
+            }
+            return author;
+        }
+
         // POST: api/Authors
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]

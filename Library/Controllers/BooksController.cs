@@ -82,6 +82,13 @@ namespace Library.Controllers
         [HttpPost]
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
+
+            var author = await _context.Authors.FindAsync(book.AuthorId);
+
+            if (author == null) return NotFound("Author not found.");
+
+
+
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
 
