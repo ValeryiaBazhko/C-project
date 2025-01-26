@@ -4,6 +4,8 @@ using Library.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<BookService>();
+
 // Add services to the container.
 
 builder.Services.AddControllers();

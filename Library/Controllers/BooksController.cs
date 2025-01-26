@@ -13,10 +13,12 @@ namespace Library.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
+        private readonly BookService _bookService;
         private readonly LibraryContext _context;
 
-        public BooksController(LibraryContext context)
+        public BooksController(BookService bookService, LibraryContext context)
         {
+            _bookService = bookService;
             _context = context;
         }
 
@@ -27,18 +29,21 @@ namespace Library.Controllers
             return await _context.Books.ToListAsync();
         }
 
-        // GET: api/Books/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBook(int id)
+        // GET /books/search?query=<query>
+        // modify to search query 
+        [HttpGet("search")]
+        public async Task<ActionResult<Book>> SearchBooksByTitle(string query)
         {
-            var book = await _context.Books.FindAsync(id);
+            if (string.IsNullOrEmpty(query)) { return BadRequest("Provide a title of the book"); }
 
-            if (book == null)
+            var books = await _bookService.SearchBooks(query);
+
+            if (books == null || books.Count == 0)
             {
-                return NotFound();
+                return NotFound("No books found");
             }
 
-            return book;
+            return Ok(books);
         }
 
         // PUT: api/Books/5
