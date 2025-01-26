@@ -21,15 +21,14 @@ public class BookService
             {
                 book.Id,
                 book.Title,
-                Distance = LevDistance(query.ToLower(), book.Title.ToLower())  // Calculate Levenshtein distance for each book's title
+                Distance = LevDistance(query.ToLower(), book.Title.ToLower())
             })
-            .Where(x => x.Distance <= 3)  // Set a threshold for "closeness"
-            .OrderBy(x => x.Distance)  // Order by least distance first
-            .ToList();  // Convert the result to a list
+            .Where(x => x.Distance <= 3)
+            .OrderBy(x => x.Distance)
+            .ToList();
 
-        // Return the list of books corresponding to the selected ids
         var bookIds = similarBooks.Select(x => x.Id).ToList();
-        var resultBooks = _context.Books.Where(book => bookIds.Contains(book.Id)).ToList(); // Retrieve the actual book objects from the database
+        var resultBooks = _context.Books.Where(book => bookIds.Contains(book.Id)).ToList();
 
         return resultBooks;
     }
