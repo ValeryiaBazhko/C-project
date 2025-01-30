@@ -8,16 +8,18 @@ namespace Library.Models;
 public class Book
 {
     [ValidId(ErrorMessage = "Invalid Id")]
-    public int Id { get; set; }
+    public required int Id { get; set; }
 
     [Required(ErrorMessage = "Title is required")]
     [StringLength(100, ErrorMessage = "Title is too long")]
     public required string Title { get; set; }
 
     [ValidDate(ErrorMessage = "Invalid publication year")]
-    public int PublicationYear { get; set; }
+    public required int PublicationYear { get; set; }
+
+
     [Required(ErrorMessage = "AuthorId is required")]
-    public int AuthorId { get; set; }
+    public required int AuthorId { get; set; }
 
 
 
