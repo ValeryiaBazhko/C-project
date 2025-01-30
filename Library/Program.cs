@@ -5,6 +5,7 @@ using Library.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<BookService>();
+builder.Services.AddScoped<AuthorService>();
 
 // Add services to the container.
 

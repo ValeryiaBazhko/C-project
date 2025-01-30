@@ -10,12 +10,65 @@ public class BookService
         _context = context;
     }
 
+    public async Task<List<Book>> GetAllBooks(int pageNum, int pageSize)
+    {
+        return await _context.Books
+            .OrderBy(b => b.Title)
+            .Skip((pageNum - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+    }
+
+    public async Task<int> GetTotNumOfBooks()
+    {
+        return await _context.Books.CountAsync();
+    }
+
+    public async Task<Book?> GetBookById(int id)
+    {
+
+        return await _context.Books.FindAsync(id);
+
+    }
+
+
+    public async Task<Book> AddBook(Book book)
+    {
+
+        await _context.Books.AddAsync(book);
+        await _context.SaveChangesAsync();
+        return book;
+    }
+
+    public async Task<bool> UpdateBook(Book book)
+    {
+        var exisBook = await _context.Books.FindAsync(book.Id);
+        if (exisBook == null) return false;
+
+        exisBook.Title = book.Title;
+        exisBook.AuthorId = book.AuthorId;
+        exisBook.PublicationYear = book.PublicationYear;
+
+        await _context.SaveChangesAsync();
+        return true;
+    }
+
+    public async Task<bool> DeleteBook(int id)
+    {
+        var book = await _context.Books.FindAsync(id);
+        if (book == null) return false;
+
+        _context.Books.Remove(book);
+        await _context.SaveChangesAsync();
+        return true;
+    }
+
     public async Task<List<Book>> SearchBooks(string query)
     {
-        // Retrieve the list of books asynchronously from the database
+
         var books = await _context.Books.ToListAsync();
 
-        // Perform similarity search with Levenshtein distance
+
         var similarBooks = books
             .Select(book => new
             {

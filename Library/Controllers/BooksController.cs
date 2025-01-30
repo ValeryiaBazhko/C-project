@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Library.Models;
+using System.Numerics;
 
 namespace Library.Controllers
 {
@@ -14,20 +15,31 @@ namespace Library.Controllers
     public class BooksController : ControllerBase
     {
         private readonly BookService _bookService;
-        private readonly LibraryContext _context;
 
-        public BooksController(BookService bookService, LibraryContext context)
+        public BooksController(BookService bookService)
         {
             _bookService = bookService;
-            _context = context;
         }
 
         // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
+        public async Task<ActionResult<IEnumerable<Book>>> GetBooks([FromQuery] int pageNum, [FromQuery] int pageSize)
         {
-            return await _context.Books.ToListAsync();
+            var books = await _bookService.GetAllBooks(pageNum, pageSize);
+            var totBooks = await _bookService.GetTotNumOfBooks();
+
+            var Out = new
+            {
+                PageNumber = pageNum,
+                PageSize = pageSize,
+                TotalBooks = totBooks,
+                TotalPages = (int)(totBooks / pageSize),
+                Books = books
+            };
+
+            return Ok(Out);
         }
+
 
         // GET /books/search?query=<query>
         // modify to search query 
@@ -53,25 +65,14 @@ namespace Library.Controllers
         {
             if (id != book.Id)
             {
-                return BadRequest();
+                return BadRequest("Incorrect ID");
             }
 
-            _context.Entry(book).State = EntityState.Modified;
+            var Out = await _bookService.UpdateBook(book);
 
-            try
+            if (!Out)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BookExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
 
             return NoContent();
@@ -83,14 +84,9 @@ namespace Library.Controllers
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
 
-            var author = await _context.Authors.FindAsync(book.AuthorId);
+            var author = await _bookService.AddBook(book);
 
             if (author == null) return NotFound("Author not found.");
-
-
-
-            _context.Books.Add(book);
-            await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetBook", new { id = book.Id }, book);
         }
@@ -99,21 +95,12 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBook(int id)
         {
-            var book = await _context.Books.FindAsync(id);
-            if (book == null)
-            {
-                return NotFound();
-            }
 
-            _context.Books.Remove(book);
-            await _context.SaveChangesAsync();
+            var Out = await _bookService.DeleteBook(id);
+
+            if (!Out) return NotFound();
 
             return NoContent();
-        }
-
-        private bool BookExists(int id)
-        {
-            return _context.Books.Any(e => e.Id == id);
         }
     }
 }

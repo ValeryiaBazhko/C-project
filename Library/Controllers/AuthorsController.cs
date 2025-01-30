@@ -13,18 +13,19 @@ namespace Library.Controllers
     [ApiController]
     public class AuthorsController : ControllerBase
     {
-        private readonly LibraryContext _context;
 
-        public AuthorsController(LibraryContext context)
+        private readonly AuthorService _authorService;
+
+        public AuthorsController(AuthorService authorService)
         {
-            _context = context;
+            _authorService = authorService;
         }
 
         // GET: api/Authors
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Author>>> GetAuthors()
         {
-            return await _context.Authors.ToListAsync();
+            return await _authorService.GetAllAuthors();
         }
 
 
@@ -32,12 +33,11 @@ namespace Library.Controllers
         [ApiExplorerSettings(IgnoreApi = true)]
         public async Task<ActionResult<Author>> GetAuthor(int id)
         {
-            var author = await _context.Authors.FindAsync(id);
-            if (author == null)
-            {
-                return NotFound();
-            }
-            return author;
+            var Out = await _authorService.GetAuthorById(id);
+
+            if (Out == null) return NotFound();
+
+            return Out;
         }
 
         // POST: api/Authors
@@ -45,17 +45,9 @@ namespace Library.Controllers
         [HttpPost]
         public async Task<ActionResult<Author>> PostAuthor(Author author)
         {
-            _context.Authors.Add(author);
-            await _context.SaveChangesAsync();
+            await _authorService.AddAuthor(author);
 
             return CreatedAtAction("GetAuthor", new { id = author.Id }, author);
-        }
-
-
-
-        private bool AuthorExists(int id)
-        {
-            return _context.Authors.Any(e => e.Id == id);
         }
     }
 }
