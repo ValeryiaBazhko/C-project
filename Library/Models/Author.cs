@@ -10,7 +10,7 @@ public class Author
 
     [Required(ErrorMessage = "Name is required")]
     [StringLength(100, ErrorMessage = "Name is too long")]
-    public string Name { get; set; }
+    public required string Name { get; set; }
 
     public DateTime DateOfBirth { get; set; }
 

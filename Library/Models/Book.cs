@@ -12,7 +12,7 @@ public class Book
 
     [Required(ErrorMessage = "Title is required")]
     [StringLength(100, ErrorMessage = "Title is too long")]
-    public string Title { get; set; }
+    public required string Title { get; set; }
 
     [ValidDate(ErrorMessage = "Invalid publication year")]
     public int PublicationYear { get; set; }
