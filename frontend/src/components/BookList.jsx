@@ -6,10 +6,15 @@ const BookList = () => {
     const [pageNum, setPageNum] = useState(1);
     const [pageSize, setPageSize] = useState(5);
     const [totalPages, setTotalPages] = useState(1);
+    const [search, setSearch] = useState("");
+
+
 
 
     useEffect(() => {
-        fetchBooks();
+        if (search.trim() == "") {
+            fetchBooks();
+        }
         fetchAuthors();
     }, [pageNum]);
 
@@ -20,10 +25,29 @@ const BookList = () => {
             if (!res.ok) throw new Error("Failed to fetch books");
 
             const data = await res.json();
-            setBooks(data.Books);
+            setBooks(data.books);
             setTotalPages(data.TotalPages);
         } catch (error) {
             console.error("Error fetching books: ", error);
+        }
+    };
+
+    const handleSearch = async () => {
+        if (!search.trim()) {
+            fetchBooks();
+            return;
+        }
+
+        try {
+            const res = await fetch(`https://localhost:7053/api/books/search?query=${search}`);
+            if (!res.ok) throw new Error("Failed to search books");
+
+            const data = await res.json();
+            if (!data)
+                setBooks(data);
+            setTotalPages(1);
+        } catch (error) {
+            console.error("Error searching books: ", error);
         }
     };
 
@@ -60,22 +84,30 @@ const BookList = () => {
     return (
         <div>
             <h2>Book List</h2>
-            <ul>
-                {books.map((book) => (
-                    <li key={book.id}>
-                        <strong>{book.title}</strong> (Published: {book.publicationYear})
-                        <br />
-                        <span>Author: {book.authorName || "Unknown"}</span>
-                        <button onClick={() => deleteBook(book.id)}>Delete</button>
-                    </li>
-                ))}
-            </ul>
 
-            <div>
-                <button disabled={pageNum <= 1} onClick={() => setPageNum(pageNum - 1)}>Previous</button>
-                <span> Page {pageNum} of {totalPages} </span>
-                <button disabled={pageNum >= totalPages} onClick={() => setPageNum(pageNum + 1)}>Next</button>
-            </div>
+            <input type="text" placeholder="Search books here" value={search} onChange={(e) => setSearch(e.target.value)} />
+            <button onClick={handleSearch}>Search</button>
+            <ul>
+                {books?.length > 0 ? (
+                    books.map((book) => (
+                        <li key={book.id}>
+                            <strong>{book.title}</strong> (Published: {book.publicationYear})
+                            <br />
+                            <span>Author: {book.authorName || "Unknown"}</span>
+                            <button onClick={() => deleteBook(book.id)}>Delete</button>
+                        </li>
+                    ))
+                ) : (
+                    <p>No books found</p>
+                )}
+            </ul>
+            {search.trim() == "" && (
+                <div>
+                    <button disabled={pageNum <= 1} onClick={() => setPageNum(pageNum - 1)}>Previous</button>
+                    <span> Page {pageNum} of {totalPages} </span>
+                    <button disabled={pageNum >= totalPages} onClick={() => setPageNum(pageNum + 1)}>Next</button>
+                </div>
+            )}
         </div>
     );
 };

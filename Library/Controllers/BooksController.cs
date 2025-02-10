@@ -33,7 +33,7 @@ namespace Library.Controllers
                 PageNumber = pageNum,
                 PageSize = pageSize,
                 TotalBooks = totBooks,
-                TotalPages = (int)(totBooks / pageSize),
+                TotalPages = (int)(totBooks / pageSize) + 1,
                 Books = books
             };
 
@@ -88,7 +88,7 @@ namespace Library.Controllers
 
             if (author == null) return NotFound("Author not found.");
 
-            return CreatedAtAction("GetBook", new { id = book.Id }, book);
+            return CreatedAtAction(nameof(GetBooks), new { id = book.Id }, book);
         }
 
         // DELETE: api/Books/5

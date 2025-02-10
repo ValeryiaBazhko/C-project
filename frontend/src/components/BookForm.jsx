@@ -6,6 +6,8 @@ const BookForm = ({ onSubmit, initialData = null }) => {
     const [publicationYear, setPublicationYear] = useState(initialData?.publicationYear || ``);
     const [authorId, setAuthorId] = useState(initialData?.authorId || ``);
     const [authors, setAuthors] = useState([]);
+    const [pageNum, setPageNum] = useState(1);
+    const [pageSize, setPageSize] = useState(5);
 
 
     const [errors, setErrors] = useState({
@@ -15,15 +17,15 @@ const BookForm = ({ onSubmit, initialData = null }) => {
     });
 
     useEffect(() => {
-        fetch("http://localhost:7053/api/authors")
+        fetch("https://localhost:7053/api/authors")
             .then((res) => res.json())
             .then((data) => setAuthors(data))
             .catch((err) => console.error("Error fetching authors: ", err))
     }, []);
 
 
-    const handleSubmit = (e) => {
-        e.preventDefaut();
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
         setErrors({});
 
@@ -43,27 +45,36 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             newErrors.publicationYear = "Invalid publication year";
         }
 
-        if (!authorId) {
-            isValid = false;
-            newErrors.authorId = "Author ID is required";
-        }
-
         if (!isValid) {
             setErrors(newErrors);
             return;
         }
 
-        onSubmit({
-            id,
-            title,
-            publicationYear,
-            authorId
-        });
+        try {
+            const res = await fetch(`https://localhost:7053/api/books?pageNum=${pageNum}&pageSize=${pageSize}`, {
+                method: "POST",
+                body: JSON.stringify({
+                    title,
+                    publicationYear,
+                    authorId
+                }),
+                headers: {
+                    "Content-type": "application/json; charset=UTF-8"
+                }
+            });
 
-        setId(``);
-        setTitle(``);
-        setPublicationYear(``);
-        setAuthorId(``);
+            if (!res.ok) {
+                throw new Error("Failed to add book")
+            }
+            setId(``);
+            setTitle(``);
+            setPublicationYear(``);
+            setAuthorId(``);
+        } catch (error) {
+            console.error("Error submitting form: ", error);
+        }
+
+
     };
 
     return (
@@ -78,24 +89,24 @@ const BookForm = ({ onSubmit, initialData = null }) => {
 
                 <div>
                     <label htmlFor="publicationYear">Publication Year:</label>
-                    <input type="date" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} />
+                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} />
                     {errors.publicationYear && <div style={{ color: `red` }}>{errors.publicationYear}</div>}
                 </div>
 
                 <div>
                     <label htmlFor="authorId">Select Author:</label>
-                    <select id="authorId" value={authorID} onChange={(e) => setAuthorId(e.target.value)}>
+                    <select id="authorId" value={authorId} onChange={(e) => setAuthorId(e.target.value)}>
                         <option>Select an Author</option>
                         {authors.map((author) => (
                             <option key={author.id} value={author.id}>
-
+                                {author.name}
                             </option>
                         ))}
                     </select>
                     {errors.authorId && <div style={{ color: `red` }}>{errors.authorId}</div>}
                 </div>
 
-                <button type="submit">{initialData ? `Update Book` : `AddBook`}</button>
+                <button type="submit">{initialData ? `Update Book` : `Add Book`}</button>
 
             </form>
         </div>

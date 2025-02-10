@@ -1,11 +1,23 @@
 using Microsoft.EntityFrameworkCore;
 using Library.Models;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<AuthorService>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Allow", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // Explicitly allow frontend
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials(); // Only if using cookies/auth
+    });
+});
+
+
 
 // Add services to the container.
 
@@ -18,6 +30,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -25,10 +39,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
+app.UseRouting();
+app.UseCors("Allow");
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
+
