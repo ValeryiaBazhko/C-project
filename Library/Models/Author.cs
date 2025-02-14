@@ -5,7 +5,6 @@ namespace Library.Models;
 
 public class Author
 {
-    [Book.ValidId(ErrorMessage = "Invalid Id")]
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Name is required")]

@@ -40,6 +40,7 @@ namespace Library.Controllers
         [HttpPost]
         public async Task<ActionResult<Author>> PostAuthor(Author author)
         {
+            Console.WriteLine("Hello");
             await _authorService.AddAuthor(author);
 
             return CreatedAtAction("GetAuthor", new { id = author.Id }, author);

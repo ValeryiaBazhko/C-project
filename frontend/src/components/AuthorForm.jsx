@@ -39,18 +39,22 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             return;
         }
 
+        const bookData = {
+            name,
+            dateofbirth
+        };
+
+        console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch("https://localhost:7053/api/authors", {
+            const res = await fetch(`https://localhost:7053/api/authors`, {
                 method: "POST",
-                body: JSON.stringify({
-                    name,
-                    dateofbirth
-                }),
+                body: JSON.stringify(bookData),
                 headers: {
                     "Content-type": "application/json; charset=UTF-8"
                 }
             });
+
 
             if (!res.ok) {
                 throw new Error("Failed to add author");

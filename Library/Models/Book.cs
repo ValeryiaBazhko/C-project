@@ -1,13 +1,13 @@
 using System.ComponentModel.DataAnnotations;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace Library.Models;
 
 public class Book
 {
-    [ValidId(ErrorMessage = "Invalid Id")]
     public required int Id { get; set; }
 
     [Required(ErrorMessage = "Title is required")]
@@ -43,16 +43,6 @@ public class Book
 
     }
 
-    public class ValidId : ValidationAttribute
-    {
-        public override bool IsValid(object value)
-        {
-            if (value is int num)
-            {
-                return num >= 0;
-            }
-            return false;
-        }
-    }
+
 
 }

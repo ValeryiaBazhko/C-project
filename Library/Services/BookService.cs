@@ -10,13 +10,16 @@ public class BookService
         _context = context;
     }
 
-    public async Task<List<Book>> GetAllBooks(int pageNum, int pageSize)
+    public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null)
     {
-        return await _context.Books
-            .OrderBy(b => b.Title)
-            .Skip((pageNum - 1) * pageSize)
-            .Take(pageSize)
-            .ToListAsync();
+        IQueryable<Book> books = _context.Books.OrderBy(b => b.Title);
+
+        if (pageNum.HasValue && pageSize.HasValue && pageNum > 0 && pageSize > 0)
+        {
+            books = books.Skip((pageNum.Value - 1) * pageSize.Value).Take(pageSize.Value);
+        }
+
+        return await books.ToListAsync();
     }
 
     public async Task<int> GetTotNumOfBooks()
@@ -34,12 +37,10 @@ public class BookService
 
     public async Task<Book> AddBook(Book book)
     {
-
         await _context.Books.AddAsync(book);
         await _context.SaveChangesAsync();
         return book;
     }
-
     public async Task<bool> UpdateBook(Book book)
     {
         var exisBook = await _context.Books.FindAsync(book.Id);

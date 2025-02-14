@@ -21,23 +21,40 @@ namespace Library.Controllers
             _bookService = bookService;
         }
 
+
+
         // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks([FromQuery] int pageNum, [FromQuery] int pageSize)
+        public async Task<ActionResult<IEnumerable<Book>>> GetBooks([FromQuery] int? pageNum, [FromQuery] int? pageSize)
         {
+            if (!pageNum.HasValue || !pageSize.HasValue || pageNum <= 0 || pageSize <= 0)
+            {
+                return await _bookService.GetAllBooks();
+
+            }
             var books = await _bookService.GetAllBooks(pageNum, pageSize);
+
             var totBooks = await _bookService.GetTotNumOfBooks();
 
             var Out = new
             {
-                PageNumber = pageNum,
-                PageSize = pageSize,
+                PageNumber = pageNum.Value,
+                PageSize = pageSize.Value,
                 TotalBooks = totBooks,
                 TotalPages = (int)(totBooks / pageSize) + 1,
                 Books = books
             };
 
             return Ok(Out);
+        }
+
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Book>> GetBookById(int id)
+        {
+            var book = await _bookService.GetBookById(id);
+            if (book == null) return NotFound();
+            return book;
         }
 
 
@@ -81,14 +98,18 @@ namespace Library.Controllers
         // POST: api/Books
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Book>> PostBook(Book book)
+        public async Task<ActionResult<Book>> PostBook([FromBody] Book book)
         {
 
-            var author = await _bookService.AddBook(book);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            Console.WriteLine("Received book data: " + Newtonsoft.Json.JsonConvert.SerializeObject(book) + book.Id);
 
-            if (author == null) return NotFound("Author not found.");
+            await _bookService.AddBook(book);
 
-            return CreatedAtAction(nameof(GetBooks), new { id = book.Id }, book);
+            return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, book);
         }
 
         // DELETE: api/Books/5

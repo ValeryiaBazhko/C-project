@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
 
 const BookForm = ({ onSubmit, initialData = null }) => {
-    const [id, setId] = useState(initialData?.id || ``);
+    const [id, setId] = useState('');
     const [title, setTitle] = useState(initialData?.title || ``);
     const [publicationYear, setPublicationYear] = useState(initialData?.publicationYear || ``);
     const [authorId, setAuthorId] = useState(initialData?.authorId || ``);
     const [authors, setAuthors] = useState([]);
-    const [pageNum, setPageNum] = useState(1);
-    const [pageSize, setPageSize] = useState(5);
-
-
     const [errors, setErrors] = useState({
+        id: ``,
         title: ``,
         publicationYear: ``,
         authorId: ``
@@ -23,49 +20,58 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             .catch((err) => console.error("Error fetching authors: ", err))
     }, []);
 
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        setErrors({});
-
-        let isValid = true;
-        let newErrors = {};
+    const validateForm = () => {
+        const newErrors = {};
 
         if (!title) {
-            isValid = false;
             newErrors.title = "Title is required";
         } else if (title.length > 100) {
-            isValid = false;
             newErrors.title = "Title is too long";
         }
 
         if (!publicationYear || isNaN(publicationYear)) {
-            isValid = false;
             newErrors.publicationYear = "Invalid publication year";
         }
 
-        if (!isValid) {
-            setErrors(newErrors);
+        if (!authorId) {
+            newErrors.authorId = "Author is required";
+        }
+
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        if (!validateForm()) {
             return;
         }
 
+        const bookData = {
+            title,
+            publicationYear,
+            authorId
+        };
+
+        console.log("Submitting book data: ", bookData);
+
         try {
-            const res = await fetch(`https://localhost:7053/api/books?pageNum=${pageNum}&pageSize=${pageSize}`, {
+            const res = await fetch(`https://localhost:7053/api/books`, {
                 method: "POST",
-                body: JSON.stringify({
-                    title,
-                    publicationYear,
-                    authorId
-                }),
+                body: JSON.stringify(bookData),
                 headers: {
                     "Content-type": "application/json; charset=UTF-8"
                 }
             });
 
             if (!res.ok) {
-                throw new Error("Failed to add book")
+                const error = await res.text();
+                throw new Error(`Failed to add book: ${res.status}: ${error}`);
             }
+
+            const data = await res.json();
+            console.log("Books: ", data);
             setId(``);
             setTitle(``);
             setPublicationYear(``);
@@ -73,8 +79,6 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         } catch (error) {
             console.error("Error submitting form: ", error);
         }
-
-
     };
 
     return (
@@ -83,20 +87,18 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="title">Title:</label>
-                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} />
+                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} required />
                     {errors.title && <div style={{ color: `red` }}>{errors.title}</div>}
                 </div>
-
                 <div>
                     <label htmlFor="publicationYear">Publication Year:</label>
-                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} />
+                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} required />
                     {errors.publicationYear && <div style={{ color: `red` }}>{errors.publicationYear}</div>}
                 </div>
-
                 <div>
                     <label htmlFor="authorId">Select Author:</label>
-                    <select id="authorId" value={authorId} onChange={(e) => setAuthorId(e.target.value)}>
-                        <option>Select an Author</option>
+                    <select id="authorId" value={authorId} onChange={(e) => setAuthorId(e.target.value)} required>
+                        <option value="">Select an Author</option>
                         {authors.map((author) => (
                             <option key={author.id} value={author.id}>
                                 {author.name}
@@ -105,9 +107,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
                     </select>
                     {errors.authorId && <div style={{ color: `red` }}>{errors.authorId}</div>}
                 </div>
-
                 <button type="submit">{initialData ? `Update Book` : `Add Book`}</button>
-
             </form>
         </div>
     );
