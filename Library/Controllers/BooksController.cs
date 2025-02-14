@@ -41,7 +41,7 @@ namespace Library.Controllers
                 PageNumber = pageNum.Value,
                 PageSize = pageSize.Value,
                 TotalBooks = totBooks,
-                TotalPages = (int)(totBooks / pageSize) + 1,
+                TotalPages = (totBooks % pageSize == 0) ? (totBooks / pageSize) : (totBooks / pageSize) + 1,
                 Books = books
             };
 
@@ -100,12 +100,6 @@ namespace Library.Controllers
         [HttpPost]
         public async Task<ActionResult<Book>> PostBook([FromBody] Book book)
         {
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Console.WriteLine("Received book data: " + Newtonsoft.Json.JsonConvert.SerializeObject(book) + book.Id);
 
             await _bookService.AddBook(book);
 

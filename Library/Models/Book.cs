@@ -8,7 +8,7 @@ namespace Library.Models;
 
 public class Book
 {
-    public required int Id { get; set; }
+    public int Id { get; set; }
 
     [Required(ErrorMessage = "Title is required")]
     [StringLength(100, ErrorMessage = "Title is too long")]

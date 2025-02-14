@@ -7,12 +7,13 @@ const BookList = () => {
     const [pageSize, setPageSize] = useState(5);
     const [totalPages, setTotalPages] = useState(1);
     const [search, setSearch] = useState("");
+    const [noBooks, setNoBooks] = useState(false);
 
 
 
 
     useEffect(() => {
-        if (search.trim() == "") {
+        if (search.trim() === "") {
             fetchBooks();
         }
         fetchAuthors();
@@ -26,7 +27,8 @@ const BookList = () => {
 
             const data = await res.json();
             setBooks(data.books);
-            setTotalPages(data.TotalPages);
+            setTotalPages(data.totalPages);
+            setNoBooks(false);
         } catch (error) {
             console.error("Error fetching books: ", error);
         }
@@ -40,12 +42,20 @@ const BookList = () => {
 
         try {
             const res = await fetch(`https://localhost:7053/api/books/search?query=${search}`);
-            if (!res.ok) throw new Error("Failed to search books");
+            if (res.status === 404) {
+                setBooks([]);
+                setNoBooks(true);
+                return;
+            }
+            if (res.ok) {
 
-            const data = await res.json();
-            if (!data)
+                const data = await res.json();
+                console.log(data);
+
                 setBooks(data);
-            setTotalPages(1);
+                setNoBooks(false);
+
+            } setTotalPages(1);
         } catch (error) {
             console.error("Error searching books: ", error);
         }
@@ -88,17 +98,22 @@ const BookList = () => {
             <input type="text" placeholder="Search books here" value={search} onChange={(e) => setSearch(e.target.value)} />
             <button onClick={handleSearch}>Search</button>
             <ul>
-                {books?.length > 0 ? (
-                    books.map((book) => (
-                        <li key={book.id}>
-                            <strong>{book.title}</strong> (Published: {book.publicationYear})
-                            <br />
-                            <span>Author: {book.authorName || "Unknown"}</span>
-                            <button onClick={() => deleteBook(book.id)}>Delete</button>
-                        </li>
-                    ))
-                ) : (
+                {noBooks ? (
                     <p>No books found</p>
+                ) : (
+                    books?.length > 0 ? (
+                        books.map((book) => (
+                            <li key={book.id}>
+                                <strong>{book.title}</strong> (Published: {book.publicationYear})
+                                <br />
+                                <span>Author: {authors[book.authorId] || "Unknown"}</span>
+                                <button onClick={() => deleteBook(book.id)}>Delete</button>
+                            </li>
+                        ))
+                    ) : (
+                        <p> No books available </p>
+                    )
+
                 )}
             </ul>
             {search.trim() == "" && (

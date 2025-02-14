@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 const BookForm = ({ onSubmit, initialData = null }) => {
     const [id, setId] = useState('');
-    const [title, setTitle] = useState(initialData?.title || ``);
-    const [publicationYear, setPublicationYear] = useState(initialData?.publicationYear || ``);
-    const [authorId, setAuthorId] = useState(initialData?.authorId || ``);
+    const [title, setTitle] = useState(``);
+    const [publicationYear, setPublicationYear] = useState(``);
+    const [authorId, setAuthorId] = useState(``);
     const [authors, setAuthors] = useState([]);
     const [errors, setErrors] = useState({
         id: ``,
@@ -107,7 +107,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
                     </select>
                     {errors.authorId && <div style={{ color: `red` }}>{errors.authorId}</div>}
                 </div>
-                <button type="submit">{initialData ? `Update Book` : `Add Book`}</button>
+                <button type="submit">Add Book</button>
             </form>
         </div>
     );
