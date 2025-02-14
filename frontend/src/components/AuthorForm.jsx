@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AuthorForm = ({ onSubmit, initialData = null }) => {
     const [id, setId] = useState('');
     const [name, setName] = useState('');
     const [dateofbirth, setDateofbirth] = useState('');
-
+    const navigate = useNavigate();
     const [errors, setErrors] = useState({
         id: ``,
         name: ``,
@@ -90,6 +91,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
                 <button type="submit">Add the Author</button>
 
             </form>
+            <button onClick={() => navigate("/")}> Back</button>
         </div>
     );
 };

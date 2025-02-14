@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const BookList = () => {
     const [books, setBooks] = useState([]);
@@ -8,7 +9,7 @@ const BookList = () => {
     const [totalPages, setTotalPages] = useState(1);
     const [search, setSearch] = useState("");
     const [noBooks, setNoBooks] = useState(false);
-
+    const navigate = useNavigate();
 
 
 
@@ -107,6 +108,9 @@ const BookList = () => {
                                 <strong>{book.title}</strong> (Published: {book.publicationYear})
                                 <br />
                                 <span>Author: {authors[book.authorId] || "Unknown"}</span>
+                                <Link to={`books/edit/${book.id}`}>
+                                    <button>Edit</button>
+                                </Link>
                                 <button onClick={() => deleteBook(book.id)}>Delete</button>
                             </li>
                         ))
@@ -123,6 +127,9 @@ const BookList = () => {
                     <button disabled={pageNum >= totalPages} onClick={() => setPageNum(pageNum + 1)}>Next</button>
                 </div>
             )}
+
+            <button onClick={() => navigate("/books/add")}> To book adding:</button>
+            <button onClick={() => navigate("/authors/add")}> To authors adding:</button>
         </div>
     );
 };

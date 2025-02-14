@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const BookForm = ({ onSubmit, initialData = null }) => {
     const [id, setId] = useState('');
@@ -12,6 +13,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         publicationYear: ``,
         authorId: ``
     });
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch("https://localhost:7053/api/authors")
@@ -108,6 +110,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
                     {errors.authorId && <div style={{ color: `red` }}>{errors.authorId}</div>}
                 </div>
                 <button type="submit">Add Book</button>
+                <button onClick={() => navigate("/")}>Back</button>
             </form>
         </div>
     );

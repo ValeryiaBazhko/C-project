@@ -3,15 +3,17 @@ import React from 'react';
 import BookList from './components/BookList';
 import BookForm from './components/BookForm';
 import AuthorForm from './components/AuthorForm';
+import UpdateForm from './components/UpdateForm';
+import { Router, Routes, Route } from 'react-router-dom';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Library Management</h1>
-      <BookList />
-      <BookForm />
-      <AuthorForm />
-    </div>
+    <Routes>
+      <Route path="/" element={<BookList />} />
+      <Route path="/books/add" element={<BookForm />} />
+      <Route path="/authors/add" element={<AuthorForm />} />
+      <Route path="/books/edit/:id" element={<UpdateForm />} />
+    </Routes>
   );
 };
 
