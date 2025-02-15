@@ -40,9 +40,11 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             return;
         }
 
+        const dateofbirthutc = new Date(dateofbirth).toISOString();
+
         const bookData = {
             name,
-            dateofbirth
+            dateofbirth: dateofbirthutc,
         };
 
         console.log("Submitting book data: ", bookData);
@@ -78,13 +80,13 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} />
+                    <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} className="info" />
                     {errors.name && <div style={{ color: 'red' }}>{errors.name}</div>}
                 </div>
 
                 <div>
-                    <label htmlFor="dateofbirth">Date of Birth:</label>
-                    <input type="date" id="dateofbirth" value={dateofbirth} onChange={(e) => setDateofbirth(e.target.value)} />
+                    <label htmlFor="dateofbirth" >Date of Birth:</label>
+                    <input type="date" id="dateofbirth" value={dateofbirth} onChange={(e) => setDateofbirth(e.target.value)} className="info" />
                     {errors.dateofbirth && <div style={{ color: 'red' }}>{errors.dateofbirth}</div>}
                 </div>
 

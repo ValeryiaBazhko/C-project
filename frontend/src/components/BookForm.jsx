@@ -89,12 +89,12 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="title">Title:</label>
-                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} required />
+                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} className="info" required />
                     {errors.title && <div style={{ color: `red` }}>{errors.title}</div>}
                 </div>
                 <div>
                     <label htmlFor="publicationYear">Publication Year:</label>
-                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} required />
+                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} className="info" required />
                     {errors.publicationYear && <div style={{ color: `red` }}>{errors.publicationYear}</div>}
                 </div>
                 <div>

@@ -96,7 +96,7 @@ const UpdateForm = () => {
 
             if (!res.ok) throw new Error("Failed to update book");
 
-            alert("Book updated successfully!");
+
             nav("/");
         } catch (error) {
             console.error("Error updating book: ", error);

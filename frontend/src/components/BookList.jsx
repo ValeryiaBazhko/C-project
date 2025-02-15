@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "/src/styles/mystyle.css";
 
 const BookList = () => {
     const [books, setBooks] = useState([]);
@@ -122,14 +123,11 @@ const BookList = () => {
             </ul>
             {search.trim() == "" && (
                 <div>
-                    <button disabled={pageNum <= 1} onClick={() => setPageNum(pageNum - 1)}>Previous</button>
+                    <button disabled={pageNum <= 1} onClick={() => setPageNum(pageNum - 1)} className="pages">Previous</button>
                     <span> Page {pageNum} of {totalPages} </span>
-                    <button disabled={pageNum >= totalPages} onClick={() => setPageNum(pageNum + 1)}>Next</button>
+                    <button disabled={pageNum >= totalPages} onClick={() => setPageNum(pageNum + 1)} className="pages">Next</button>
                 </div>
             )}
-
-            <button onClick={() => navigate("/books/add")}> To book adding:</button>
-            <button onClick={() => navigate("/authors/add")}> To authors adding:</button>
         </div>
     );
 };
