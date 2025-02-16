@@ -3,88 +3,63 @@ using Microsoft.EntityFrameworkCore;
 
 public class BookService
 {
-    private readonly LibraryContext _context;
+    private readonly IBookRepository _bookRepository;
 
-    public BookService(LibraryContext context)
+    public BookService(IBookRepository bookRepository)
     {
-        _context = context;
+        _bookRepository = bookRepository;
     }
 
     public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null)
     {
-        IQueryable<Book> books = _context.Books.OrderBy(b => b.Title);
-
-        if (pageNum.HasValue && pageSize.HasValue && pageNum > 0 && pageSize > 0)
-        {
-            books = books.Skip((pageNum.Value - 1) * pageSize.Value).Take(pageSize.Value);
-        }
-
-        return await books.ToListAsync();
+        return await _bookRepository.GetAllBooks(pageNum, pageSize);
     }
 
     public async Task<int> GetTotNumOfBooks()
     {
-        return await _context.Books.CountAsync();
+        return await _bookRepository.GetTotNumOfBooks();
     }
 
     public async Task<Book?> GetBookById(int id)
     {
 
-        return await _context.Books.FindAsync(id);
+        return await _bookRepository.GetBookById(id);
 
     }
 
 
     public async Task<Book> AddBook(Book book)
     {
-        await _context.Books.AddAsync(book);
-        await _context.SaveChangesAsync();
-        return book;
+        return await _bookRepository.AddBook(book);
     }
     public async Task<bool> UpdateBook(Book book)
     {
-        var exisBook = await _context.Books.FindAsync(book.Id);
-        if (exisBook == null) return false;
-
-        exisBook.Title = book.Title;
-        exisBook.AuthorId = book.AuthorId;
-        exisBook.PublicationYear = book.PublicationYear;
-
-        await _context.SaveChangesAsync();
-        return true;
+        return await _bookRepository.UpdateBook(book);
     }
 
     public async Task<bool> DeleteBook(int id)
     {
-        var book = await _context.Books.FindAsync(id);
-        if (book == null) return false;
-
-        _context.Books.Remove(book);
-        await _context.SaveChangesAsync();
-        return true;
+        return await _bookRepository.DeleteBook(id);
     }
 
     public async Task<List<Book>> SearchBooks(string query)
     {
 
-        var books = await _context.Books.ToListAsync();
+        var books = await _bookRepository.GetAllBooks();
 
 
         var similarBooks = books
             .Select(book => new
             {
-                book.Id,
-                book.Title,
+                Book = book,
                 Distance = LevDistance(query.ToLower(), book.Title.ToLower())
             })
             .Where(x => x.Distance <= 3)
             .OrderBy(x => x.Distance)
+            .Select(x => x.Book)
             .ToList();
 
-        var bookIds = similarBooks.Select(x => x.Id).ToList();
-        var resultBooks = _context.Books.Where(book => bookIds.Contains(book.Id)).ToList();
-
-        return resultBooks;
+        return similarBooks;
     }
 
 

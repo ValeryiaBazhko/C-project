@@ -3,27 +3,25 @@ using Microsoft.EntityFrameworkCore;
 
 public class AuthorService
 {
-    private readonly LibraryContext _context;
+    private readonly IAuthorRepository _authorRepository;
 
-    public AuthorService(LibraryContext context)
+    public AuthorService(IAuthorRepository authorRepository)
     {
-        _context = context;
+        _authorRepository = authorRepository;
     }
 
     public async Task<List<Author>> GetAllAuthors()
     {
-        return await _context.Authors.ToListAsync();
+        return await _authorRepository.GetAllAuthors();
     }
 
     public async Task<Author?> GetAuthorById(int id)
     {
-        return await _context.Authors.FindAsync(id);
+        return await _authorRepository.GetAuthorById(id);
     }
 
     public async Task<Author> AddAuthor(Author author)
     {
-        await _context.Authors.AddAsync(author);
-        await _context.SaveChangesAsync();
-        return author;
+        return await _authorRepository.AddAuthor(author);
     }
 }
