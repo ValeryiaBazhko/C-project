@@ -17,6 +17,7 @@ h2 {
     text-align: center;
     font-size: 60px;
     font-family: cursive;
+    margin-top: 0px;
 }
 
 p {
@@ -34,7 +35,8 @@ span {
 
 .container {
     text-align: center;
-    font-size: 25pxs;
+    font-size: 25px;
+
 }
 
 

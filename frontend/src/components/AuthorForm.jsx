@@ -91,9 +91,9 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
                 </div>
 
                 <button type="submit">Add the Author</button>
-
+                <button onClick={() => navigate("/")}> Back</button>
             </form>
-            <button onClick={() => navigate("/")}> Back</button>
+
         </div>
     );
 };

@@ -17,9 +17,11 @@ const BookList = () => {
     useEffect(() => {
         if (search.trim() === "") {
             fetchBooks();
+        } else {
+            handleSearch();
         }
         fetchAuthors();
-    }, [pageNum]);
+    }, [search, pageNum]);
 
 
     const fetchBooks = async () => {
