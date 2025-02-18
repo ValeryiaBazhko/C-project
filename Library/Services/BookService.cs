@@ -54,7 +54,7 @@ public class BookService
                 Book = book,
                 Distance = FinalDistance(query.ToLower(), book.Title.ToLower())
             })
-            .Where(x => x.Distance >= 0.1)
+            .Where(x => x.Distance >= 0.15)
             .OrderBy(x => x.Distance)
             .Select(x => x.Book)
             .ToList();
@@ -89,7 +89,6 @@ public class BookService
             }
         }
 
-        Console.WriteLine("Lev dist is: " + distance[lenghtA, lenghtB]);
 
         return distance[lenghtA, lenghtB];
     }
@@ -100,7 +99,6 @@ public class BookService
         var words2 = b.ToLower().Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);
         var corr1 = CorrectQueryWords(a, words2);
         var corr1Words = corr1.Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);
-        Console.WriteLine("Word overlaps is: " + corr1Words.Intersect(words2).Count());
         return corr1Words.Intersect(words2).Count();
     }
 
@@ -127,8 +125,9 @@ public class BookService
         int maxl = Math.Max(a.Length, b.Length);
         double normalized = 1 - (double)levDist / maxl;
 
-        double combined = 0.3 * normalized + 0.7 * (word / Math.Max(a.Split().Length, b.Split().Length));
-
+        double combined = 0.2 * normalized + 0.8 * ((double)word / Math.Max(a.Split().Length, b.Split().Length));
+        Console.WriteLine("Normilized: " + normalized);
+        Console.WriteLine("Words overlap score: ", word / (double)Math.Max(a.Split().Length, b.Split().Length));
         Console.WriteLine("Combined: " + combined);
         return combined;
     }
