@@ -1,7 +1,6 @@
 
 # Library managing system
-Swagger UI for easier API testing
-Similarity search using **Levenshtein Distance**
+Similarity search using **Levenshtein Distance and Jaccard Similarity**
 ## Setup instructions
 Required: [.NET 8.0 SDK] https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 ### Clone the repository
@@ -14,10 +13,47 @@ cd Library
    ```sh
    dotnet restore
    ```
-### Run the API
+
+
+### Configure database
+```sh
+"ConnectionStrings": {
+  "DefaultConnection": "Host=localhost;Port=5432;Database=LibraryDB;Username=postgres;Password=yourpassword"
+}
+```
+
+### Apply database migrations
+```sh
+dotnet ef database update
+```
+### Run the application
 ```sh
 dotnet run --launch-profile https
 ```
+### Run the frontend
+```sh
+npm run dev
+```
+
+## Database Schema 
+### Book Table 
+```sh
+CREATE TABLE Books (
+Id PRIMARY KEY,
+Title VARCHAR(255) NOT NULL,
+PublicationYear INT NOT NULL,
+AuthorId INT NOT NULL,
+FOREIGN KEY (AuthorId) REFERENCES Authors(Id)
+);
+```
+### Author Table
+```sh
+CREATE TABLE Authors(
+Id PRIMARY KEY,
+Name  VARCHAR(255) NOT NULL
+);
+```
+
 ## Example API request
 ### Fetch a paginated list of books
 ```sh
@@ -75,9 +111,19 @@ GET: api/Authors
     ]
 }
 ```
-## Levenshtein Distance algorithm (Similarity Search)
-- Helps find books even if there are minor typos in the search
+## Levenshtein Distance + Jaccard Similarity algorithms (Similarity Search)
+
+To enhance the book search functionality, this application utilizes Levenshtein Distance and Jaccard Similarity for typo-tolerant and relevance-based matching.
+
 - Levenshtein distance is a string metric for measuring the difference between two sequences
-  
 - The Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions or substitutions) required to change one word into the other
-- If a book title has a Levenshtein distance ≤ 3 from the search query, it is considered a match
+- Levenshtein Distance is applied to each distinct word in a book title, allowing for more granular typo correction and partial matches.
+
+- The Jaccard similarity measures the similarity between two sets by calculating the ratio of the intersection to the union.
+
+- By leveraging both Levenshtein Distance and Jaccard Similarity, the system provides robust and fault-tolerant search capabilities.
+
+## Performance optimization
+-Pagination: the API implements server-side pagination using EF Core's .Skip().Take() method to fetch only the required subset of data.
+-Indexed database queries for fast retrieval.
+
