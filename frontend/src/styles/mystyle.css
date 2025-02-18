@@ -95,6 +95,7 @@ select:checked {}
     transition: background 0.3s ease;
     margin-left: 50px;
     color: black;
+    margin-bottom: 70px;
 }
 
 .pages:hover {

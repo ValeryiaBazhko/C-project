@@ -8,6 +8,8 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<AuthorService>();
 
+builder.Services.AddMemoryCache();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
