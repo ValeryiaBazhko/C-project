@@ -124,6 +124,6 @@ To enhance the book search functionality, this application utilizes Levenshtein 
 - By leveraging both Levenshtein Distance and Jaccard Similarity, the system provides robust and fault-tolerant search capabilities.
 
 ## Performance optimization
--Pagination: the API implements server-side pagination using EF Core's .Skip().Take() method to fetch only the required subset of data.
--Indexed database queries for fast retrieval.
+- Pagination: the API implements server-side pagination using EF Core's .Skip().Take() method to fetch only the required subset of data.
+- Indexed database queries for fast retrieval.
 
