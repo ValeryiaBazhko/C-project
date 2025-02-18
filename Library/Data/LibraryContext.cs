@@ -17,9 +17,16 @@ public class LibraryContext : DbContext
     {
 
         modelBuilder.Entity<Book>()
-        .HasOne<Author>()
-        .WithMany(a => a.Books)
-        .HasForeignKey(b => b.AuthorId);
+        .HasIndex(b => b.Title)
+        .HasDatabaseName("idx_books_title");
+
+        modelBuilder.Entity<Book>()
+        .HasIndex(b => b.AuthorId)
+        .HasDatabaseName("idx_books_author");
+
+        modelBuilder.Entity<Book>()
+        .HasIndex(b => new { b.Title, b.Id })
+        .HasDatabaseName("idx_books_pagination");
     }
     //modelbuilder??
 }
