@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/05cbf27d3b9e48b6ba95a0798d8c7b94f000/1d/486471fa/02000008pdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/05cbf27d3b9e48b6ba95a0798d8c7b94f000/4a/d31e7ac7/02000014pdb10.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/05cbf27d3b9e48b6ba95a0798d8c7b94f000/4c/2cdbe946/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/05cbf27d3b9e48b6ba95a0798d8c7b94f000/84/6c4aa378/02000008pdb11.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/05cbf27d3b9e48b6ba95a0798d8c7b94f000/f2/43f54444/02000013pdb9.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1d83d3dc29c14b7e95c03dbe447e7cb021420/a6/7ff3bc40/0200000A.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1d83d3dc29c14b7e95c03dbe447e7cb021420/bf/fcad0b36/0200000Apdb20.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/27b08361cb07480ea8f26cd7afbfd30c2e00/58/560a9c95/02000003pdb1.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/3b786e27d69b4ddf96abec2578075c2040420/f2/b1384245/02000023pdb22.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/49954eb56c674e768be7a97e2a6794c343e00/7c/d3c580d7/02000049pdb54.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/27/fa0afb68/02000009pdb12.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/2c/83cae0b9/02000014pdb10.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/63/cb794c8f/02000012pdb3.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/6b/af54b0a6/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/72/a92e07fd/0200000Apdb13.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/94/a2a2ad27/02000008pdb11.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/ba/e6c708fe/0200000Dpdb16.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/f1/ca3a7784/0200000Bpdb14.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/678597ae350241aab9fcca32a05e17ffee00/f3/9c668d37/0200000Cpdb15.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/707c4aa631214d36b39cdd122d11a89ff000/18/0e1a113d/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7aa3ac43c1d24bf1bc305815afffae2231930/eb/1ac81b51/02000044pdb3.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d83d3dc29c14b7e95c03dbe447e7cb021420/a7/5b1161b9/Assert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23c4e6013839447196863c89842d515844200/85/04269cb8/AbstractInvocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ea354601080cd9165da8954e71b15647a63c14ecaf2192dbe2fbefce85e022/Record.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/34e887b2733e1da4a9628aaff03189d4bd7842f082e12097939f9428535c39/CastleProxyFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3b92f859131bde25d0f7a63de08963e995d1e1426e584dfd4b8e833d2d3dba/ExecutionTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3c50bb8758fba6d941a815f1792b10e892d0f0bb4358154f2acfa69d870c1e2/ValidationException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d4b58d4f19922362e61be6b764873c3d446ca20cf99191c90bc38eeda9a36/ExceptionAsserts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c3ec25c53b94f51fa21da479c513e551efee2b5ae49a79934686d2bb714d46/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Controllers/AuthorsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Controllers/BooksController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Data/LibraryContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Models/Author.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Models/Author.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Models/Author.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Repositories/AuthorRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Repositories/BookRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Repositories/IAuthorRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Repositories/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Services/AuthorService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Services/BookService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Services/BookService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Services/BookService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Services/BookService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Services/BookService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uDeBf3mgUbb7PYsIErJe6slwO6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "0b3ff1a1-41be-4f77-9968-df42db27e3d3.executor": "Debug",
+    "29b434f5-234e-4783-a36b-375337e9e409.executor": "Debug",
+    "3a592955-7433-440b-8ed3-e0f6419fc896.executor": "Debug",
+    "72e5ce89-a1c0-4e31-ab37-c79d1340b197.executor": "Debug",
+    "829fcd9b-086c-4038-9728-504196e1bf8a.executor": "Debug",
+    "87e86de3-1d85-4a1e-b556-2d3ae281e1a5.executor": "Debug",
+    "9461ba4a-480d-4cd3-80f9-020feeb32794.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "a920c7c8-d8cc-48b1-a7a7-3d8654e54788.executor": "Debug",
+    "bcd5e6ac-7675-464a-a9f3-a4348c87a1d1.executor": "Debug",
+    "d7c9ca35-27b6-42da-8472-085396dae438.executor": "Debug",
+    "efb5c73b-c212-4f86-bdc8-c5ca28b15508.executor": "Run",
+    "f33ea4b1-6943-4d04-8e6e-c5553ca0a649.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="829fcd9b-086c-4038-9728-504196e1bf8a" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
+      <created>1741787441858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741787441858</updated>
+      <workItem from="1741787441993" duration="4173000" />
+      <workItem from="1742194207852" duration="17635000" />
+      <workItem from="1742215373318" duration="1939000" />
+      <workItem from="1742218380632" duration="222000" />
+      <workItem from="1742218649274" duration="2910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.ArgumentException" isInternal="false" displayValue="ArgumentException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Library.Models.Book" memberName="Id" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
