@@ -11,13 +11,13 @@ namespace TestProject1;
 
 
 
-public class UnitTest1
+public class BookTesting
 {
 
     private readonly Mock<IBookRepository> _mockBookRepo;
     private readonly BookService _bookService;
 
-    public UnitTest1(ITestOutputHelper testOutputHelper)
+    public BookTesting(ITestOutputHelper testOutputHelper)
     {
         _mockBookRepo = new Mock<IBookRepository>();
         _bookService = new BookService(_mockBookRepo.Object);
@@ -133,27 +133,7 @@ public class UnitTest1
         await Assert.ThrowsAsync<ValidationException>(() => _bookService.UpdateBook(book));
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    //TODO: unit testing for searching query  
     
     
     public static List<object[]> GetBooksFail()

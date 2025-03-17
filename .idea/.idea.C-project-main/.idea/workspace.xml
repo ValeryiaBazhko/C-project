@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,11 +51,11 @@
     <setting file="file://$PROJECT_DIR$/Library/Controllers/AuthorsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Controllers/BooksController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Data/LibraryContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/Models/Author.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Models/Author.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Models/Author.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vbazhko/testna/C-project-main/Library/Models/Author.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Models/Book.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Repositories/AuthorRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Repositories/BookRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Repositories/IAuthorRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -95,7 +97,7 @@
     "d7c9ca35-27b6-42da-8472-085396dae438.executor": "Debug",
     "efb5c73b-c212-4f86-bdc8-c5ca28b15508.executor": "Run",
     "f33ea4b1-6943-4d04-8e6e-c5553ca0a649.executor": "Debug",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,7 +120,7 @@
       <workItem from="1742194207852" duration="17635000" />
       <workItem from="1742215373318" duration="1939000" />
       <workItem from="1742218380632" duration="222000" />
-      <workItem from="1742218649274" duration="3228000" />
+      <workItem from="1742218649274" duration="3735000" />
     </task>
     <servers />
   </component>
