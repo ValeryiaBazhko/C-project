@@ -29,12 +29,25 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             isValid = false;
             newErrors.name = "Title is too long";
         }
+<<<<<<< HEAD
+        const date = new Date();
+        console.log(dateofbirth.toString());
+        console.log(date.toISOString().substr(0, 10));
+
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0,10)) { //todo check if valid date
+            isValid = false;
+            newErrors.dateofbirth = "Invalid date of birth";
+        }
+        
+=======
 
         if (!dateofbirth) { //todo check if valid date
             isValid = false;
             newErrors.dateofbirth = "Invalid date of birth";
         }
+>>>>>>> 47650c2637831cde18077885a08459f253d6d714
 
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0,10)) { //todo check if valid date
         if (!isValid) {
             setErrors(newErrors);
             return;

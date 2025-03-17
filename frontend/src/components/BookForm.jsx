@@ -22,33 +22,39 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             .catch((err) => console.error("Error fetching authors: ", err))
     }, []);
 
-    const validateForm = () => {
-        const newErrors = {};
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        setErrors({});
+
+        let newErrors = {};
+        let isValid = true;
 
         if (!title) {
+            isValid = false;
             newErrors.title = "Title is required";
         } else if (title.length > 100) {
+            isValid = false;
             newErrors.title = "Title is too long";
         }
 
-        if (!publicationYear || isNaN(publicationYear)) {
+        if (!publicationYear || isNaN(publicationYear) || publicationYear <=0) {
+            isValid = false;
             newErrors.publicationYear = "Invalid publication year";
         }
 
         if (!authorId) {
+            isValid = false;
             newErrors.authorId = "Author is required";
         }
 
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
+        console.log(isValid);
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        if (!validateForm()) {
+        if(!isValid){
+            setErrors(newErrors);
             return;
         }
+
 
         const bookData = {
             title,

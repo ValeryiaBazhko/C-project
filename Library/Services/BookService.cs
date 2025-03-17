@@ -10,7 +10,7 @@ public class BookService
         _bookRepository = bookRepository;
     }
 
-    public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null)
+    public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null) //  
     {
         return await _bookRepository.GetAllBooks(pageNum, pageSize);
     }
@@ -23,17 +23,47 @@ public class BookService
     public async Task<Book?> GetBookById(int id)
     {
 
-        return await _bookRepository.GetBookById(id);
-
+        if (id < 0)
+        {
+            Console.WriteLine($"Throwing ValidationException: Invalid ID {id}");
+            throw new ValidationException("Invalid ID");
+        }
+        
+        var book = await _bookRepository.GetBookById(id); 
+        return book;
     }
 
 
-    public async Task<Book> AddBook(Book book)
+
+    public async Task<Book> AddBook(Book book) ////
     {
-        return await _bookRepository.AddBook(book);
+        if (string.IsNullOrWhiteSpace(book.Title))
+        {
+            throw new ValidationException("Title cannot be empty");
+        }
+
+        if (book.Id < 0)
+        {
+            throw new ValidationException("Invalid ID");
+        }
+
+        if (book.PublicationYear <= 0 || book.PublicationYear > DateTime.Now.Year)
+        {
+            throw new ValidationException("Invalid publication year");
+        }
+
+        await _bookRepository.AddBook(book);
+        return book;
     }
-    public async Task<bool> UpdateBook(Book book)
+
+    public async Task<bool> UpdateBook(Book book) ///
     {
+        if(string.IsNullOrWhiteSpace(book.Title)){
+            throw new ValidationException("Title cannot be empty");
+        }
+        if(book.PublicationYear <= 0 || book.PublicationYear > DateTime.Now.Year){
+            throw new ValidationException("Invalid publication year");
+        }
         return await _bookRepository.UpdateBook(book);
     }
 
