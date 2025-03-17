@@ -339,3 +339,4 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\refint\Test
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.sourcelink.json
