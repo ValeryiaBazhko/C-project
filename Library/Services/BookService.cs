@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 using Library.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,7 +22,6 @@ public class BookService
 
     public async Task<Book?> GetBookById(int id)
     {
-        Console.WriteLine($"Inside GetBookById with ID: {id}");
 
         if (id < 0)
         {
@@ -69,12 +67,12 @@ public class BookService
         return await _bookRepository.UpdateBook(book);
     }
 
-    public async Task<bool> DeleteBook(int id) ////
+    public async Task<bool> DeleteBook(int id)
     {
         return await _bookRepository.DeleteBook(id);
     }
 
-    public async Task<List<Book>> SearchBooks(string query) ////
+    public async Task<List<Book>> SearchBooks(string query)
     {
 
         var books = await _bookRepository.GetAllBooks();
@@ -89,7 +87,7 @@ public class BookService
             .Where(x => x.Distance >= 0.15)
             .OrderBy(x => x.Distance)
             .Select(x => x.Book)
-            .ToList()
+            .ToList();
 
         return similarBooks;
     }
@@ -161,7 +159,7 @@ public class BookService
         Console.WriteLine("Normilized: " + normalized);
         Console.WriteLine("Words overlap score: ", word / (double)Math.Max(a.Split().Length, b.Split().Length));
         Console.WriteLine("Combined: " + combined);
-        return combined
+        return combined;
     }
 
 
