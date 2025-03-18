@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Repositories/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Repositories/BookRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Models/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Models/Author.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Services/AuthorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Services/AuthorService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Services/BookService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" afterDir="false" />
@@ -88,6 +88,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b5a82f0c190b451fba4c45e9e3f7a632f000/f0/93ee4245/02000013pdb9.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/d738f4a48a864dca9404a54e14ee6c03f000/28/0aa7c163/0200000Dpdb16.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/d738f4a48a864dca9404a54e14ee6c03f000/66/130b5f7d/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e07816ad846f423891c17fcc4c1a9041f000/4b/8ebd5eaa/0200000Apdb13.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e07816ad846f423891c17fcc4c1a9041f000/8e/a781b3fd/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ee1dd7da5ac94deab99cb358357c6b71f000/98/a033a068/0200000Epdb17.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d83d3dc29c14b7e95c03dbe447e7cb021420/a7/5b1161b9/Assert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23c4e6013839447196863c89842d515844200/85/04269cb8/AbstractInvocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2832e8c2b81f4641b3863f406ce3a519c90938/4d/f6566c0d/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,7 +117,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -173,7 +176,7 @@
       <workItem from="1742218380632" duration="222000" />
       <workItem from="1742218649274" duration="4839000" />
       <workItem from="1742280193850" duration="5007000" />
-      <workItem from="1742286322786" duration="5249000" />
+      <workItem from="1742286322786" duration="16533000" />
     </task>
     <servers />
   </component>
@@ -221,43 +224,30 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/Services/BookService.cs</url>
-          <line>74</line>
-          <properties documentPath="C:\Users\vbazhko\testna\C-project-main\Library\Services\BookService.cs" containingFunctionPresentation="Method 'SearchBooks'">
+          <url>file://$PROJECT_DIR$/TestProject1/BookTesting.cs</url>
+          <line>145</line>
+          <properties documentPath="C:\Users\vbazhko\testna\C-project-main\TestProject1\BookTesting.cs" containingFunctionPresentation="Method 'SimilaritySearch_Trivial_ShouldReturnBooks'">
             <startOffsets>
-              <option value="1980" />
+              <option value="4282" />
             </startOffsets>
             <endOffsets>
-              <option value="1981" />
+              <option value="4334" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/Services/BookService.cs</url>
-          <line>76</line>
-          <properties documentPath="C:\Users\vbazhko\testna\C-project-main\Library\Services\BookService.cs" containingFunctionPresentation="Method 'SearchBooks'">
+          <url>file://$PROJECT_DIR$/TestProject1/SimilaritySearchChecking.cs</url>
+          <line>26</line>
+          <properties documentPath="C:\Users\vbazhko\testna\C-project-main\TestProject1\SimilaritySearchChecking.cs" containingFunctionPresentation="Method 'LeviDist_Calc'">
             <startOffsets>
-              <option value="1991" />
+              <option value="725" />
             </startOffsets>
             <endOffsets>
-              <option value="2039" />
+              <option value="774" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/Services/BookService.cs</url>
-          <line>80</line>
-          <properties documentPath="C:\Users\vbazhko\testna\C-project-main\Library\Services\BookService.cs" containingFunctionPresentation="Method 'SearchBooks'">
-            <startOffsets>
-              <option value="2126" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2139" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

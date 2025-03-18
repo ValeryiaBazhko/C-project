@@ -76,9 +76,10 @@ public class BookService
 
         var books = await _bookRepository.GetAllBooks();
 
-        if (string.IsNullOrWhiteSpace(query) || query == "") ;
+        if (string.IsNullOrWhiteSpace(query)) 
         {
             return books;
+            
         }
         var similarBooks = books
             .Select(book => new
@@ -95,9 +96,10 @@ public class BookService
     }
 
 
-    internal static int LevDistance(string a, string b)
+    public static int LevDistance(string a, string b)
     {
-
+        a.ToLower();
+        b.ToLower();
         if (string.IsNullOrEmpty(a) && string.IsNullOrEmpty(b)) return 0;
         if (string.IsNullOrEmpty(a)) return b.Length;
         if (string.IsNullOrEmpty(b)) return a.Length;
@@ -125,7 +127,7 @@ public class BookService
         return distance[lenghtA, lenghtB];
     }
 
-    internal static int WordOverlap(string a, string b)
+    public static int WordOverlap(string a, string b)
     {
         var words1 = a.ToLower().Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);
         var words2 = b.ToLower().Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);

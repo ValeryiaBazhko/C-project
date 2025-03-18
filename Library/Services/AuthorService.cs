@@ -30,12 +30,13 @@ public class AuthorService
 
     public async Task<Author> AddAuthor(Author author) ///
     {
+        
         if (author.Id < 0)
         {
             throw new ValidationException("Invalid ID");
         }
 
-        if (author.DateOfBirth > DateTime.Now)
+        if (author.DateOfBirth > DateOnly.FromDateTime(DateTime.Now))
         {
             throw new ValidationException("Invalid Date");
         }

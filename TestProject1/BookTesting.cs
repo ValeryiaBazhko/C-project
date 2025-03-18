@@ -142,9 +142,11 @@ public class BookTesting
         Assert.NotNull(books);
 
         _mockBookRepo.Setup(repo => repo.GetAllBooks(It.IsAny<int?>(), It.IsAny<int?>())).ReturnsAsync(books);
-        var result = await _bookService.SearchBooks("");
+        var result1 = await _bookService.SearchBooks("");
+        var result2 = await _bookService.SearchBooks("red");
         
-        Assert.Equal(expected, result.Count);
+        Assert.Equal(expected, result1.Count);
+        Assert.Empty(result2);
     }
     
     
