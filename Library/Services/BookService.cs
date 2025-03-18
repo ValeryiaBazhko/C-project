@@ -76,7 +76,10 @@ public class BookService
 
         var books = await _bookRepository.GetAllBooks();
 
-
+        if (string.IsNullOrWhiteSpace(query) || query == "") ;
+        {
+            return books;
+        }
         var similarBooks = books
             .Select(book => new
             {

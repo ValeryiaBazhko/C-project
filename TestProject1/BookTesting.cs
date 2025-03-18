@@ -1,6 +1,7 @@
 using Moq;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 using Library.Models;
 using Xunit;
 using Xunit.Abstractions;
@@ -132,8 +133,19 @@ public class BookTesting
         
         await Assert.ThrowsAsync<ValidationException>(() => _bookService.UpdateBook(book));
     }
-    
-    //TODO: unit testing for searching query  
+
+    [Theory]
+    [MemberData(nameof(TestBooks))]
+    public async Task SimilaritySearch_Trivial_ShouldReturnBooks(List<Book> books, int expected)
+    {
+        
+        Assert.NotNull(books);
+
+        _mockBookRepo.Setup(repo => repo.GetAllBooks(It.IsAny<int?>(), It.IsAny<int?>())).ReturnsAsync(books);
+        var result = await _bookService.SearchBooks("");
+        
+        Assert.Equal(expected, result.Count);
+    }
     
     
     public static List<object[]> GetBooksFail()
@@ -164,7 +176,7 @@ public class BookTesting
             {
                 new List<Book>
                 {
-                    new Book { Id = 1, Title = "", PublicationYear = 2021, AuthorId = 123 }
+                    new Book { Id = 1, Title = "Test", PublicationYear = 2021, AuthorId = 123 }
                 },
                 1
             },
@@ -173,7 +185,7 @@ public class BookTesting
                 new List<Book>
                 {
                     new Book { Id = 1, Title = "Book 1", PublicationYear = 2021, AuthorId = 123 },
-                    new Book { Id = 2, Title = "Book 2", PublicationYear = 2055, AuthorId = 123 }
+                    new Book { Id = 2, Title = "Book 2", PublicationYear = 2025, AuthorId = 123 }
                 },
                 2
             },
