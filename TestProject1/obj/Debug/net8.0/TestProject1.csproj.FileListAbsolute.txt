@@ -92,7 +92,6 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\NuGet.Versi
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Composition.Convention.dll

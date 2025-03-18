@@ -25,7 +25,6 @@ public class BookService
 
         if (id < 0)
         {
-            Console.WriteLine($"Throwing ValidationException: Invalid ID {id}");
             throw new ValidationException("Invalid ID");
         }
         

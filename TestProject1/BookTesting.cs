@@ -17,7 +17,7 @@ public class BookTesting
     private readonly Mock<IBookRepository> _mockBookRepo;
     private readonly BookService _bookService;
 
-    public BookTesting(ITestOutputHelper testOutputHelper)
+    public BookTesting()
     {
         _mockBookRepo = new Mock<IBookRepository>();
         _bookService = new BookService(_mockBookRepo.Object);
@@ -173,7 +173,7 @@ public class BookTesting
                 new List<Book>
                 {
                     new Book { Id = 1, Title = "Book 1", PublicationYear = 2021, AuthorId = 123 },
-                    new Book() { Id = 2, Title = "Book 2", PublicationYear = 2055, AuthorId = 123 }
+                    new Book { Id = 2, Title = "Book 2", PublicationYear = 2055, AuthorId = 123 }
                 },
                 2
             },

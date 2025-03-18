@@ -20,15 +20,7 @@ public class Book
 
     [Required(ErrorMessage = "AuthorId is required")]
     public required int AuthorId { get; set; }
-
-
-
-
-
-
-
-
-
+    
 
     public class ValidDate : ValidationAttribute
     {

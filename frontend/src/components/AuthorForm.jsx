@@ -38,11 +38,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             isValid = false;
             newErrors.dateofbirth = "Invalid date of birth";
         }
-
-        if (!dateofbirth) { //todo check if valid date
-            isValid = false;
-            newErrors.dateofbirth = "Invalid date of birth";
-        }
+        
 
         if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0,10)) {
             isValid = false;
