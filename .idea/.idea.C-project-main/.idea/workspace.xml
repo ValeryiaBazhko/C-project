@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Models/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Models/Author.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Services/AuthorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Services/AuthorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Services/BookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/BookTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/BookTesting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/SimilaritySearchChecking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/SimilaritySearchChecking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
-    </list>
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +145,7 @@
       <workItem from="1742218380632" duration="222000" />
       <workItem from="1742218649274" duration="4839000" />
       <workItem from="1742280193850" duration="5007000" />
-      <workItem from="1742286322786" duration="16533000" />
+      <workItem from="1742286322786" duration="16685000" />
     </task>
     <servers />
   </component>

@@ -81,8 +81,8 @@ public class AuthorTesting
     {
         return new List<object[]>
         {
-            new object[] { new Author { Id = 1, DateOfBirth = Convert.ToDateTime("2004-07-12"), Name = "someone" } },
-            new object[] { new Author { Id = 2, DateOfBirth = Convert.ToDateTime("2000-05-30"), Name = "someone else" } }
+            new object[] { new Author { Id = 1, DateOfBirth = new DateOnly(2004, 12, 12), Name = "someone" } },
+            new object[] { new Author { Id = 2, DateOfBirth = new DateOnly(2000, 07, 12), Name = "someone else" } }
         };
     }
 
@@ -90,8 +90,8 @@ public class AuthorTesting
     {
         return new List<object[]>
         {
-            new object[] { new Author { Id = -1, DateOfBirth = Convert.ToDateTime("2055-08-22"), Name = "someone" } },
-            new object[] { new Author { Id = -2, DateOfBirth = Convert.ToDateTime("2023-08-22"), Name = "" } },
+            new object[] { new Author { Id = -1, DateOfBirth = new DateOnly(2023, 12, 03), Name = "someone" } },
+            new object[] { new Author { Id = -2, DateOfBirth = new DateOnly(2055, 08,23), Name = "" } },
         };
     }
 
@@ -105,8 +105,8 @@ public class AuthorTesting
             {
                 new List<Author>
                 {
-                    new Author { Id = 1, DateOfBirth = Convert.ToDateTime("2004-07-12"), Name = "Someone" },
-                    new Author { Id = 2, DateOfBirth = Convert.ToDateTime("2004-07-22"), Name = "Someone else" }
+                    new Author { Id = 1, DateOfBirth = new DateOnly(2004, 07, 12), Name = "Someone" },
+                    new Author { Id = 2, DateOfBirth = new DateOnly(2004, 07, 22), Name = "Someone else" }
                 },
                 2
             },
@@ -114,7 +114,7 @@ public class AuthorTesting
             {
                 new List<Author>
                 {
-                    new Author { Id = 1, DateOfBirth = Convert.ToDateTime("2004-12-07"), Name = "Someone" }
+                    new Author { Id = 1, DateOfBirth = new DateOnly(2004, 07, 22), Name = "Someone" }
                 },
                 1
             },

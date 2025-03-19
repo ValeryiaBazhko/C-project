@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Library.Models;
 
 namespace Library.Models;
 
@@ -27,6 +28,12 @@ public class LibraryContext : DbContext
         modelBuilder.Entity<Book>()
         .HasIndex(b => new { b.Title, b.Id })
         .HasDatabaseName("idx_books_pagination");
+
+        modelBuilder.Entity<Author>()
+            .Property(a => a.DateOfBirth)
+            .HasConversion(new Author.DateOnlyConverter());
     }
+    
+    
     //modelbuilder??
 }
