@@ -6,12 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <Target Name="BuildViteApp" BeforeTargets="Build">
+    <Exec WorkingDirectory="../frontend" Command="npm install" />
+    <Exec WorkingDirectory="../frontend" Command="npm run build" />
+  </Target>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <Content Update="appsettings.Development.json" CopyToPublishDirectory="Never" />
     <Content Include="web.config" CopyToPublishDirectory="Always" />
+    <Content Include="../frontend/dist/**" LinkBase="wwwroot" CopyToPublishDirectory="PreserveNewest" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1">

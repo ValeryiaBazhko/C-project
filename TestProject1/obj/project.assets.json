@@ -13625,19 +13625,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vbazhko\\.nuget\\packages\\": {}
+    "C:\\Users\\lerab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vbazhko\\testna\\C-project-main\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\lerab\\testna\\C-project\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\vbazhko\\testna\\C-project-main\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\vbazhko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vbazhko\\testna\\C-project-main\\TestProject1\\obj\\",
+      "projectPath": "C:\\Users\\lerab\\testna\\C-project\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\lerab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lerab\\testna\\C-project\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vbazhko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lerab\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -13649,8 +13649,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\Library.csproj": {
-              "projectPath": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\Library.csproj"
+            "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj": {
+              "projectPath": "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj"
             }
           }
         }
@@ -13711,7 +13711,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

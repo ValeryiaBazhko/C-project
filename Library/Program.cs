@@ -14,7 +14,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // Explicitly allow frontend
+        policy.WithOrigins("http://localhost:5173",
+        "librarymanagementsystem1.azurewebsites.net")
+        //  // Explicitly allow frontend
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); // Only if using cookies/auth
@@ -49,6 +51,12 @@ app.UseRouting();
 app.UseCors("Allow");
 app.UseHttpsRedirection();
 app.UseAuthorization();
+
+
+app.UseDeveloperExceptionPage();
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
+
 app.MapControllers();
 app.Run();
-app.UseDeveloperExceptionPage();
+
