@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" afterDir="false" />
@@ -18,17 +17,6 @@
       <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +160,7 @@
       <workItem from="1742286322786" duration="16685000" />
       <workItem from="1742798493926" duration="5086000" />
       <workItem from="1742807134339" duration="1005000" />
-      <workItem from="1742808178072" duration="3017000" />
+      <workItem from="1742808178072" duration="4873000" />
     </task>
     <servers />
   </component>
