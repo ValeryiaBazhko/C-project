@@ -2,24 +2,21 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Azure.Core/1.25.0": {
+      "Azure.Core/1.45.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "System.Diagnostics.DiagnosticSource": "4.6.0",
-          "System.Memory.Data": "1.0.2",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2",
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.ClientModel": "1.2.1",
+          "System.Memory.Data": "6.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/net5.0/Azure.Core.dll": {
+          "lib/net8.0/Azure.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/Azure.Core.dll": {
+          "lib/net8.0/Azure.Core.dll": {
             "related": ".xml"
           }
         }
@@ -2822,6 +2819,23 @@
           "lib/netstandard1.1/System.Buffers.dll": {}
         }
       },
+      "System.ClientModel/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory.Data": "6.0.0",
+          "System.Text.Json": "6.0.10"
+        },
+        "compile": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
@@ -3548,21 +3562,23 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Memory.Data/1.0.2": {
+      "System.Memory.Data/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.6.0"
+          "System.Text.Json": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Net.Http/4.3.0": {
@@ -3639,15 +3655,6 @@
           "ref/netstandard1.3/System.Net.Sockets.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.ObjectModel/4.3.0": {
@@ -4634,24 +4641,26 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.25.0": {
-      "sha512": "X8Dd4sAggS84KScWIjEbFAdt2U1KDolQopTPoHVubG2y3CM54f9l6asVrP5Uy384NWXjsspPYaJgz5xHc+KvTA==",
+    "Azure.Core/1.45.0": {
+      "sha512": "a4ZZ8SHrYqDYqan0vUZrCoN2V09sSXWqsy5PwgyRDZWF/ZjYPUNqBcOOV01Mm7Rcd4Psf08GUBPOhGz+7onmPQ==",
       "type": "package",
-      "path": "azure.core/1.25.0",
+      "path": "azure.core/1.45.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.25.0.nupkg.sha512",
+        "azure.core.1.45.0.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
-        "lib/net5.0/Azure.Core.dll",
-        "lib/net5.0/Azure.Core.xml",
-        "lib/netcoreapp2.1/Azure.Core.dll",
-        "lib/netcoreapp2.1/Azure.Core.xml",
+        "lib/net472/Azure.Core.dll",
+        "lib/net472/Azure.Core.xml",
+        "lib/net6.0/Azure.Core.dll",
+        "lib/net6.0/Azure.Core.xml",
+        "lib/net8.0/Azure.Core.dll",
+        "lib/net8.0/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
       ]
@@ -9207,6 +9216,24 @@
         "system.buffers.nuspec"
       ]
     },
+    "System.ClientModel/1.2.1": {
+      "sha512": "s9+M5El+DXdCRRLzxak8uGBKWT8H/eIssGpFtpaMKdJULrQbBDPH/zFbVyHX+NDczhS5EvjHFbBH9/L+0UhmcA==",
+      "type": "package",
+      "path": "system.clientmodel/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "DotNetPackageIcon.png",
+        "README.md",
+        "lib/net6.0/System.ClientModel.dll",
+        "lib/net6.0/System.ClientModel.xml",
+        "lib/netstandard2.0/System.ClientModel.dll",
+        "lib/netstandard2.0/System.ClientModel.xml",
+        "system.clientmodel.1.2.1.nupkg.sha512",
+        "system.clientmodel.nuspec"
+      ]
+    },
     "System.CodeDom/6.0.0": {
       "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
       "type": "package",
@@ -10938,22 +10965,27 @@
         "version.txt"
       ]
     },
-    "System.Memory.Data/1.0.2": {
-      "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+    "System.Memory.Data/6.0.0": {
+      "sha512": "ntFHArH3I4Lpjf5m4DCXQHJuGwWPNVJPaAvM95Jy/u+2Yzt2ryiyIN04LAogkjP9DeRcEOiviAjQotfmPq/FrQ==",
       "type": "package",
-      "path": "system.memory.data/1.0.2",
+      "path": "system.memory.data/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "CHANGELOG.md",
-        "DotNetPackageIcon.png",
-        "README.md",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Memory.Data.dll",
         "lib/net461/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net6.0/System.Memory.Data.xml",
         "lib/netstandard2.0/System.Memory.Data.dll",
         "lib/netstandard2.0/System.Memory.Data.xml",
-        "system.memory.data.1.0.2.nupkg.sha512",
-        "system.memory.data.nuspec"
+        "system.memory.data.6.0.0.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -11153,53 +11185,6 @@
         "ref/xamarinwatchos10/_._",
         "system.net.sockets.4.3.0.nupkg.sha512",
         "system.net.sockets.nuspec"
-      ]
-    },
-    "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
-      "type": "package",
-      "path": "system.numerics.vectors/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Numerics.Vectors.dll",
-        "lib/net46/System.Numerics.Vectors.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.Numerics.Vectors.dll",
-        "lib/netstandard1.0/System.Numerics.Vectors.xml",
-        "lib/netstandard2.0/System.Numerics.Vectors.dll",
-        "lib/netstandard2.0/System.Numerics.Vectors.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
-        "ref/net46/System.Numerics.Vectors.dll",
-        "ref/net46/System.Numerics.Vectors.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/System.Numerics.Vectors.dll",
-        "ref/netstandard1.0/System.Numerics.Vectors.xml",
-        "ref/netstandard2.0/System.Numerics.Vectors.dll",
-        "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.5.0.nupkg.sha512",
-        "system.numerics.vectors.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.ObjectModel/4.3.0": {
@@ -13630,6 +13615,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Azure.Core >= 1.45.0",
       "Library >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.16.1",
@@ -13684,6 +13670,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Azure.Core": {
+            "target": "Package",
+            "version": "[1.45.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
