@@ -1,6 +1,13 @@
 C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.exe
+C:\Users\vbazhko\testna\C-project-main\Library\publish\publish\web.config
+C:\Users\vbazhko\testna\C-project-main\Library\publish\web.config
 C:\Users\vbazhko\testna\C-project-main\Library\publish\appsettings.Development.json
 C:\Users\vbazhko\testna\C-project-main\Library\publish\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\Library\publish\publish\appsettings.Development.json
+C:\Users\vbazhko\testna\C-project-main\Library\publish\publish\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\Library\publish\publish\Library.deps.json
+C:\Users\vbazhko\testna\C-project-main\Library\publish\publish\Library.runtimeconfig.json
+C:\Users\vbazhko\testna\C-project-main\Library\publish\./web.config
 C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.dll
 C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.runtimeconfig.json
 C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.pdb

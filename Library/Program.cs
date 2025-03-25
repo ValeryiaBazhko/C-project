@@ -36,7 +36,9 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "../Frontend/dist");
+var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "../../frontend/dist");
+string physicalDirectory = Path.Combine(Directory.GetCurrentDirectory(), "frontend", "dist");
+Console.WriteLine($"Physical directory path: {physicalDirectory}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

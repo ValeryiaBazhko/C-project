@@ -340,3 +340,4 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Release\net8.0\refint\Te
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Release\net8.0\TestProject1.pdb
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Release\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Release\net8.0\ref\TestProject1.dll
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Release\net8.0\web.config

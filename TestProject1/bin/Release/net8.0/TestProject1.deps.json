@@ -3143,6 +3143,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "9.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.3",
           "Swashbuckle.AspNetCore": "6.6.2"
