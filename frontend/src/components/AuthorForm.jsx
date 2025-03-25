@@ -50,7 +50,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             return;
         }
 
-        const dateofbirthutc = new Date(dateofbirth).toISOString();
+        const dateofbirthutc = new Date(dateofbirth).toISOString().split("T")[0];
 
         const bookData = {
             name,
