@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // Explicitly allow frontend
+        policy.WithOrigins("http://localhost:5174") // Explicitly allow frontend
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); // Only if using cookies/auth
@@ -36,7 +36,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "../../frontend/dist");
+var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "../frontend/dist");
 string physicalDirectory = Path.Combine(Directory.GetCurrentDirectory(), "frontend", "dist");
 Console.WriteLine($"Physical directory path: {physicalDirectory}");
 
