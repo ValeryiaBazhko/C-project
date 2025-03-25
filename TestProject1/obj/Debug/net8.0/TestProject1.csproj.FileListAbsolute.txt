@@ -1,5 +1,7 @@
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\.msCoverageSourceRootsMapping_TestProject1
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\CoverletSourceRootsMapping_TestProject1
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\testhost.dll
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.deps.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.runtimeconfig.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\web.config
@@ -7,9 +9,7 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.exe
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\testhost.exe
-C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\TestProject1.deps.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\TestProject1.runtimeconfig.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\TestProject1.dll
@@ -111,7 +111,6 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Runt
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.core.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.execution.dotnet.dll
@@ -329,6 +328,7 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\runtimes\wi
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.pdb
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.dll.config
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.csproj.AssemblyReference.cache
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\vbazhko\testna\C-project-main\TestProject1\obj\Debug\net8.0\TestProject1.AssemblyInfoInputs.cache
