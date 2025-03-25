@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-
+var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "../Frontend/dist");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -44,11 +44,22 @@ if (app.Environment.IsDevelopment())
 }
 
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(frontendPath),
+    RequestPath = "" 
+});
+
+app.MapFallbackToFile("index.html", new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(frontendPath)
+});
 
 app.UseRouting();
+
 app.UseCors("Allow");
-app.UseHttpsRedirection();
-//app.UseAuthorization();
+app.UseHttpsRedirection(); 
+app.UseAuthorization();
 app.MapControllers();
 app.Run();
 app.UseDeveloperExceptionPage();
