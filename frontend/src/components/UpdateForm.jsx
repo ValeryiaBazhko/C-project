@@ -25,7 +25,7 @@ const UpdateForm = () => {
         try {
 
 
-            const res = await fetch(`https://localhost:7053/api/books/${id}`);
+            const res = await fetch(`http://localhost:5174/api/books/${id}`);
             if (!res.ok) throw new Error("Failed to fetch book details");
 
 
@@ -81,7 +81,7 @@ const UpdateForm = () => {
         }
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books/${id}`, {
+            const res = await fetch(`http://localhost:5174/api/books/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",

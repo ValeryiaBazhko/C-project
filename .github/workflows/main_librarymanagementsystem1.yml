@@ -1,7 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy ASP.Net Core app to Azure Web App - LibraryManagementSystem1
+name: Build and deploy ASP.NET Core app to Azure Web App - LibraryManagementSystem1
 
 on:
   push:
@@ -9,30 +6,67 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  AZURE_WEBAPP_NAME: 'LibraryManagementSystem1'
+  AZURE_WEBAPP_PACKAGE_PATH: './publish'
+  DOTNET_VERSION: '8.0.x'
+  NODE_VERSION: '20.x'
+  REACT_APP_API_URL: 'https://librarymanagementsystem1.azurewebsites.net' # Set your production API URL
+
 jobs:
   build:
     runs-on: windows-latest
     permissions:
-      contents: read 
+      contents: read
+      
     steps:
       - uses: actions/checkout@v4
 
+      # Setup Node.js for frontend build
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      
+      # Build React frontend with production environment
+      - name: Build frontend
+        working-directory: ./frontend
+        run: |
+          npm install
+          npm run build --if-present
+          mkdir -p ../Library/wwwroot
+          cp -r build/* ../Library/wwwroot/
+        env:
+          NODE_ENV: production
+          REACT_APP_API_URL: ${{ env.REACT_APP_API_URL }}
+
+      # Setup .NET Core
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: ${{ env.DOTNET_VERSION }}
 
+      # Restore dependencies
+      - name: dotnet restore
+        working-directory: ./Library
+        run: dotnet restore
+
+      # Build .NET backend
       - name: Build with dotnet
-        run: dotnet build ./Library/Library.csproj --configuration Release
+        working-directory: ./Library
+        run: dotnet build --configuration Release --no-restore
 
+      # Publish .NET app including frontend files
       - name: dotnet publish
-        run: dotnet publish ./Library/Library.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp"
+        working-directory: ./Library
+        run: dotnet publish -c Release -o ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
 
-      - name: Upload artifact for deployment job
+      # Upload artifact for deployment
+      - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   deploy:
     runs-on: windows-latest
@@ -40,9 +74,10 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      
     permissions:
-      id-token: write #This is required for requesting the JWT
-      contents: read #This is required for actions/checkout
+      id-token: write
+      contents: read
 
     steps:
       - name: Download artifact from build job
@@ -53,15 +88,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_94865F37C9294148A71F8D367E8EB24B }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_20ABE96607224338B3FBE626FC73D674 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E654258A78154F1ABE44E33A3EAF988C }}
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'LibraryManagementSystem1'
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
           slot-name: 'Production'
-          package: .
-          
+          package: ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }}

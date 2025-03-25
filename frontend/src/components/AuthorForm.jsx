@@ -34,17 +34,17 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         console.log(dateofbirth.toString());
         console.log(date.toISOString().substr(0, 10));
 
-        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0,10)) { //todo check if valid date
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0, 10)) { //todo check if valid date
             isValid = false;
             newErrors.dateofbirth = "Invalid date of birth";
         }
-        
 
-        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0,10)) {
+
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0, 10)) {
             isValid = false;
             newErrors.dateofbirth = "Invalid date of birth";
         }
-        
+
         if (!isValid) {
             setErrors(newErrors);
             return;
@@ -60,7 +60,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`https://localhost:7053/api/authors`, {
+            const res = await fetch(`http://localhost:5174/api/authors`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {

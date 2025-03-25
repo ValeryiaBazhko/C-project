@@ -16,7 +16,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch("https://localhost:7053/api/authors")
+        fetch("http://localhost:5174/api/authors")
             .then((res) => res.json())
             .then((data) => setAuthors(data))
             .catch((err) => console.error("Error fetching authors: ", err))
@@ -38,7 +38,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             newErrors.title = "Title is too long";
         }
 
-        if (!publicationYear || isNaN(publicationYear) || publicationYear <=0) {
+        if (!publicationYear || isNaN(publicationYear) || publicationYear <= 0) {
             isValid = false;
             newErrors.publicationYear = "Invalid publication year";
         }
@@ -50,7 +50,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
 
         console.log(isValid);
 
-        if(!isValid){
+        if (!isValid) {
             setErrors(newErrors);
             return;
         }
@@ -65,7 +65,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books`, {
+            const res = await fetch(`http://localhost:5174/api/books`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {

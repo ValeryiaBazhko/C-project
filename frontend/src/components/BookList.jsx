@@ -26,7 +26,7 @@ const BookList = () => {
 
     const fetchBooks = async () => {
         try {
-            const res = await fetch(`https://localhost:7053/api/books?pageNum=${pageNum}&pageSize=${pageSize}`);
+            const res = await fetch(`http://localhost:5174/api/books?pageNum=${pageNum}&pageSize=${pageSize}`);
             if (!res.ok) throw new Error("Failed to fetch books");
 
             const data = await res.json();
