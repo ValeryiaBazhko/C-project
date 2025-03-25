@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" afterDir="false" />
-    </list>
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +153,7 @@
       <workItem from="1742286322786" duration="16685000" />
       <workItem from="1742798493926" duration="5086000" />
       <workItem from="1742807134339" duration="1005000" />
-      <workItem from="1742808178072" duration="14733000" />
+      <workItem from="1742808178072" duration="15349000" />
     </task>
     <servers />
   </component>
