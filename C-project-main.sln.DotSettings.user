@@ -13,6 +13,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AValidationException_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F3c50bb8758fba6d941a815f1792b10e892d0f0bb4358154f2acfa69d870c1e2_003FValidationException_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\Library.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\vbazhko\testna\C-project-main\.idea\.idea.C-project-main\.idea\shelf\Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]\Library7.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0a15944a_002D3006_002D4460_002D890c_002D18989a466826/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TestProject1&amp;gt; #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="C:\Users\vbazhko\testna\C-project-main\TestProject1" Presentation="&amp;lt;TestProject1&amp;gt;" /&gt;&#xD;
