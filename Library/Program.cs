@@ -48,7 +48,7 @@ if (app.Environment.IsDevelopment())
 app.UseRouting();
 app.UseCors("Allow");
 app.UseHttpsRedirection();
-app.UseAuthorization();
+//app.UseAuthorization();
 app.MapControllers();
 app.Run();
 app.UseDeveloperExceptionPage();
