@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +152,7 @@
       <workItem from="1742807134339" duration="1005000" />
       <workItem from="1742808178072" duration="40034000" />
       <workItem from="1742979065950" duration="405000" />
+      <workItem from="1742979552021" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
