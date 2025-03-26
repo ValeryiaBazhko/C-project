@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +83,7 @@
     <setting file="file://$PROJECT_DIR$/Library/Repositories/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Services/AuthorService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Services/BookService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/package-lock.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
@@ -157,7 +155,7 @@
       <workItem from="1742286322786" duration="16685000" />
       <workItem from="1742798493926" duration="5086000" />
       <workItem from="1742807134339" duration="1005000" />
-      <workItem from="1742808178072" duration="37769000" />
+      <workItem from="1742808178072" duration="38070000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
