@@ -237,9 +237,14 @@ C:\Users\lerab\testna\C-project\Library\obj\Debug\net8.0\refint\Library.dll
 C:\Users\lerab\testna\C-project\Library\obj\Debug\net8.0\Library.pdb
 C:\Users\lerab\testna\C-project\Library\obj\Debug\net8.0\Library.genruntimeconfig.cache
 C:\Users\lerab\testna\C-project\Library\obj\Debug\net8.0\ref\Library.dll
+C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publish\web.config
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\web.config
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publish\Library.deps.json
+C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publish\Library.runtimeconfig.json
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\Library.staticwebassets.runtime.json
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\Library.exe
 C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\Library.deps.json
@@ -471,8 +476,3 @@ C:\Users\vbazhko\testna\C-project-main\Library\obj\Debug\net8.0\refint\Library.d
 C:\Users\vbazhko\testna\C-project-main\Library\obj\Debug\net8.0\Library.pdb
 C:\Users\vbazhko\testna\C-project-main\Library\obj\Debug\net8.0\Library.genruntimeconfig.cache
 C:\Users\vbazhko\testna\C-project-main\Library\obj\Debug\net8.0\ref\Library.dll
-C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publisj\web.config
-C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publisj\appsettings.Development.json
-C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publisj\appsettings.json
-C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publisj\Library.deps.json
-C:\Users\vbazhko\testna\C-project-main\Library\bin\Debug\net8.0\publisj\Library.runtimeconfig.json

@@ -323,9 +323,14 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\testhost.dl
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.deps.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.runtimeconfig.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\publish\web.config
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\web.config
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\publish\Library.deps.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\publish\Library.runtimeconfig.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.staticwebassets.runtime.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.exe
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\testhost.exe
