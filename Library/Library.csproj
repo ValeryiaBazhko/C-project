@@ -34,7 +34,7 @@
   <Target Name="CopyReactFiles" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
     <PropertyGroup>
       <ReactBuildDir>..\frontend\dist\</ReactBuildDir>
-      <WwwrootDir>$(ProjectDir)\Library\wwwroot\</WwwrootDir>
+      <WwwrootDir>$(ProjectDir)\wwwroot\</WwwrootDir>
     </PropertyGroup>
     
     <!-- Create wwwroot if it doesn't exist -->

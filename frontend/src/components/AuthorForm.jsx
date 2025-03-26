@@ -12,6 +12,8 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         dateofbirth: ``
     });
 
+    const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
+
 
 
     const handleSubmit = async (e) => {
@@ -60,7 +62,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`http://localhost:5174/api/authors`, {
+            const res = await fetch(`${BASE_URL}/api/authors`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {

@@ -17,10 +17,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
     {
-        policy.WithOrigins("http://localhost:5174") // Explicitly allow frontend
+        policy.WithOrigins("https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net") // Explicitly allow frontend
               .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials(); // Only if using cookies/auth
+              .AllowAnyMethod();
+            .AllowCredentials(); // Only if using cookies/auth
     });
 });
 
@@ -51,7 +51,7 @@ if (!Directory.Exists(frontendPath))
     Console.WriteLine("Please build your React/Vite app first and ensure it's in the correct location");
 }
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseRouting();
 
@@ -64,7 +64,7 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = ""
 });
 
-//app.UseAuthorization();
+app.UseAuthorization();
 
 app.MapControllers();
 

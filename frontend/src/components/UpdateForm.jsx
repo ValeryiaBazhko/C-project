@@ -15,6 +15,8 @@ const UpdateForm = () => {
     });
     const nav = useNavigate();
 
+    const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
+
     useEffect(() => {
         fetchBook();
         fetchAuthors();
@@ -25,7 +27,7 @@ const UpdateForm = () => {
         try {
 
 
-            const res = await fetch(`http://localhost:5174/api/books/${id}`);
+            const res = await fetch(`${BASE_URL}/api/books/${id}`);
             if (!res.ok) throw new Error("Failed to fetch book details");
 
 
@@ -40,7 +42,7 @@ const UpdateForm = () => {
 
     const fetchAuthors = async () => {
         try {
-            const res = await fetch(`https://localhost:7053/api/authors`);
+            const res = await fetch(`${BASE_URL}}/api/authors`);
             if (!res.ok) throw new Error("Failed to fetch authors");
 
             const data = await res.json();
@@ -81,7 +83,7 @@ const UpdateForm = () => {
         }
 
         try {
-            const res = await fetch(`http://localhost:5174/api/books/${id}`, {
+            const res = await fetch(`${BASE_URL}/api/books/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",

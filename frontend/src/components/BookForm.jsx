@@ -14,9 +14,10 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         authorId: ``
     });
     const navigate = useNavigate();
+    const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
 
     useEffect(() => {
-        fetch("http://localhost:5174/api/authors")
+        fetch(`${BASE_URL}}/api/authors`)
             .then((res) => res.json())
             .then((data) => setAuthors(data))
             .catch((err) => console.error("Error fetching authors: ", err))
@@ -65,7 +66,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`http://localhost:5174/api/books`, {
+            const res = await fetch(`${BASE_URL}/api/books`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {

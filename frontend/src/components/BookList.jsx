@@ -12,6 +12,7 @@ const BookList = () => {
     const [noBooks, setNoBooks] = useState(false);
     const navigate = useNavigate();
 
+    const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
 
 
     useEffect(() => {
@@ -26,7 +27,7 @@ const BookList = () => {
 
     const fetchBooks = async () => {
         try {
-            const res = await fetch(`http://localhost:5174/api/books?pageNum=${pageNum}&pageSize=${pageSize}`);
+            const res = await fetch(`${BASE_URL}/api/books?pageNum=${pageNum}&pageSize=${pageSize}`);
             if (!res.ok) throw new Error("Failed to fetch books");
 
             const data = await res.json();
@@ -45,7 +46,7 @@ const BookList = () => {
         }
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books/search?query=${search}`);
+            const res = await fetch(`${BASE_URL}/api/books/search?query=${search}`);
             if (res.status === 404) {
                 setBooks([]);
                 setNoBooks(true);
@@ -67,7 +68,7 @@ const BookList = () => {
 
     const fetchAuthors = async () => {
         try {
-            const res = await fetch("https://localhost:7053/api/authors");
+            const res = await fetch(`${BASE_URL}/api/authors`);
             if (!res.ok) throw new Error("Failed to fetch authors");
 
             const data = await res.json();
@@ -85,7 +86,7 @@ const BookList = () => {
         if (!window.confirm("Are you sure you want to delete this book?")) return;
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books/${id}`, { method: "DELETE" });
+            const res = await fetch(`${BASE_URL}/api/books/${id}`, { method: "DELETE" });
             if (!res.ok) throw new Error("Failed to delete book");
 
             setBooks(books.filter(book => book.id !== id));

@@ -1,13 +1,7 @@
 C:\Users\lerab\testna\C-project\Library\publish\Library.exe
-C:\Users\lerab\testna\C-project\Library\publish\publish\web.config
 C:\Users\lerab\testna\C-project\Library\publish\web.config
 C:\Users\lerab\testna\C-project\Library\publish\appsettings.Development.json
 C:\Users\lerab\testna\C-project\Library\publish\appsettings.json
-C:\Users\lerab\testna\C-project\Library\publish\publish\appsettings.Development.json
-C:\Users\lerab\testna\C-project\Library\publish\publish\appsettings.json
-C:\Users\lerab\testna\C-project\Library\publish\publish\Library.deps.json
-C:\Users\lerab\testna\C-project\Library\publish\publish\Library.runtimeconfig.json
-C:\Users\lerab\testna\C-project\Library\publish\wwwroot\assets\index-CUJVUl7w.js
 C:\Users\lerab\testna\C-project\Library\publish\Library.dll
 C:\Users\lerab\testna\C-project\Library\publish\Library.runtimeconfig.json
 C:\Users\lerab\testna\C-project\Library\publish\Library.pdb
