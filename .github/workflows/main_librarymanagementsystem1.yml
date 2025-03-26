@@ -27,18 +27,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
-          
-      - name: Clean up before install
-        working-directory: ./frontend
-        run: Remove-Item -Recurse -Force node_modules -ErrorAction Ignore
-            Remove-Item package-lock.json 
-          npm install
       
       - name: Build frontend
         working-directory: ./frontend
         run: |
-          npm ci
-          npx vite build
+          npm install
+          npm run build 
         env:
           NODE_ENV: production
           REACT_APP_API_URL: ${{ env.REACT_APP_API_URL }}

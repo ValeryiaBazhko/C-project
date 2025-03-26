@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="." />
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_librarymanagementsystem1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,12 +93,6 @@
     <setting file="file://$PROJECT_DIR$/Library/Services/AuthorService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Services/BookService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/package-lock.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vbazhko/testna/C-project-main/web.config" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -106,38 +109,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "0a15944a-3006-4460-890c-18989a466826.executor": "Debug",
-    "0b3ff1a1-41be-4f77-9968-df42db27e3d3.executor": "Debug",
-    "29b434f5-234e-4783-a36b-375337e9e409.executor": "Debug",
-    "2bdacfe8-8b88-4f24-990b-e658c4526817.executor": "Debug",
-    "3a592955-7433-440b-8ed3-e0f6419fc896.executor": "Debug",
-    "55832150-8323-4c81-990e-2c1df1f5c6ef.executor": "Debug",
-    "72e5ce89-a1c0-4e31-ab37-c79d1340b197.executor": "Debug",
-    "829fcd9b-086c-4038-9728-504196e1bf8a.executor": "Run",
-    "83e03686-f05c-45b2-b468-5e33aa42a911.executor": "Run",
-    "87e86de3-1d85-4a1e-b556-2d3ae281e1a5.executor": "Debug",
-    "9461ba4a-480d-4cd3-80f9-020feeb32794.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "a920c7c8-d8cc-48b1-a7a7-3d8654e54788.executor": "Debug",
-    "bcd5e6ac-7675-464a-a9f3-a4348c87a1d1.executor": "Debug",
-    "d7c9ca35-27b6-42da-8472-085396dae438.executor": "Debug",
-    "efb5c73b-c212-4f86-bdc8-c5ca28b15508.executor": "Debug",
-    "f33ea4b1-6943-4d04-8e6e-c5553ca0a649.executor": "Debug",
-    "fd7b0a58-07a5-4880-86bf-0e9d064ea6ba.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeInspectionSettingsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;0a15944a-3006-4460-890c-18989a466826.executor&quot;: &quot;Debug&quot;,
+    &quot;0b3ff1a1-41be-4f77-9968-df42db27e3d3.executor&quot;: &quot;Debug&quot;,
+    &quot;29b434f5-234e-4783-a36b-375337e9e409.executor&quot;: &quot;Debug&quot;,
+    &quot;2bdacfe8-8b88-4f24-990b-e658c4526817.executor&quot;: &quot;Debug&quot;,
+    &quot;3a592955-7433-440b-8ed3-e0f6419fc896.executor&quot;: &quot;Debug&quot;,
+    &quot;55832150-8323-4c81-990e-2c1df1f5c6ef.executor&quot;: &quot;Debug&quot;,
+    &quot;72e5ce89-a1c0-4e31-ab37-c79d1340b197.executor&quot;: &quot;Debug&quot;,
+    &quot;829fcd9b-086c-4038-9728-504196e1bf8a.executor&quot;: &quot;Run&quot;,
+    &quot;83e03686-f05c-45b2-b468-5e33aa42a911.executor&quot;: &quot;Run&quot;,
+    &quot;87e86de3-1d85-4a1e-b556-2d3ae281e1a5.executor&quot;: &quot;Debug&quot;,
+    &quot;9461ba4a-480d-4cd3-80f9-020feeb32794.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;a920c7c8-d8cc-48b1-a7a7-3d8654e54788.executor&quot;: &quot;Debug&quot;,
+    &quot;bcd5e6ac-7675-464a-a9f3-a4348c87a1d1.executor&quot;: &quot;Debug&quot;,
+    &quot;d7c9ca35-27b6-42da-8472-085396dae438.executor&quot;: &quot;Debug&quot;,
+    &quot;efb5c73b-c212-4f86-bdc8-c5ca28b15508.executor&quot;: &quot;Debug&quot;,
+    &quot;f33ea4b1-6943-4d04-8e6e-c5553ca0a649.executor&quot;: &quot;Debug&quot;,
+    &quot;fd7b0a58-07a5-4880-86bf-0e9d064ea6ba.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeInspectionSettingsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="83e03686-f05c-45b2-b468-5e33aa42a911" />
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -155,7 +157,8 @@
       <workItem from="1742286322786" duration="16685000" />
       <workItem from="1742798493926" duration="5086000" />
       <workItem from="1742807134339" duration="1005000" />
-      <workItem from="1742808178072" duration="39176000" />
+      <workItem from="1742808178072" duration="40034000" />
+      <workItem from="1742979065950" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
