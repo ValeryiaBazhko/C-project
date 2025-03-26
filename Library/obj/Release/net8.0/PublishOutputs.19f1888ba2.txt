@@ -2,8 +2,8 @@ C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.exe
 C:\Users\vbazhko\testna\C-project-main\Library\publish\web.config
 C:\Users\vbazhko\testna\C-project-main\Library\publish\appsettings.Development.json
 C:\Users\vbazhko\testna\C-project-main\Library\publish\appsettings.json
-C:\Users\vbazhko\testna\C-project-main\Library\publish\wwwroot\assets\index-6-Yo4B5P.js
 C:\Users\vbazhko\testna\C-project-main\Library\publish\wwwroot\assets\index-99LVJsYo.css
+C:\Users\vbazhko\testna\C-project-main\Library\publish\wwwroot\assets\index-BO8GMPed.js
 C:\Users\vbazhko\testna\C-project-main\Library\publish\wwwroot\index.html
 C:\Users\vbazhko\testna\C-project-main\Library\publish\wwwroot\vite.svg
 C:\Users\vbazhko\testna\C-project-main\Library\publish\Library.dll
