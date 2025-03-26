@@ -10,7 +10,7 @@ env:
   AZURE_WEBAPP_NAME: 'LibraryManagementSystem1'
   AZURE_WEBAPP_PACKAGE_PATH: './publish'
   DOTNET_VERSION: '8.0.x'
-  NODE_VERSION: '20.x'
+  NODE_VERSION: '22.4.x'
   REACT_APP_API_URL: 'https://librarymanagementsystem1.azurewebsites.net' 
 
 jobs:
