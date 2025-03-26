@@ -326,6 +326,7 @@ C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.run
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\web.config
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\appsettings.json
+C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.staticwebassets.runtime.json
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\Library.exe
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\testhost.exe
 C:\Users\vbazhko\testna\C-project-main\TestProject1\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll

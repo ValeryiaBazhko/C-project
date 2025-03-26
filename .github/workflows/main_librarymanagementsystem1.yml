@@ -19,6 +19,7 @@ jobs:
     permissions:
       contents: read
       
+      
     steps:
       - uses: actions/checkout@v4
 
@@ -32,8 +33,6 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-          mkdir -p ../Library/wwwroot
-          cp -r dist/* ../Library/wwwroot/
         env:
           NODE_ENV: production
           REACT_APP_API_URL: ${{ env.REACT_APP_API_URL }}

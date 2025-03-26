@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q6+2sHF0+vGpqobDMwtFqju/OAkXeAPpkTL9LV+m/dc=",
+  "Hash": "TQEgmjIZmB8K3ryMy6EkdCe8R38s+Gr+/MUL3a5qQEo=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-6-Yo4B5P.js",
-      "SourceId": "Library",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
-      "BasePath": "_content/Library",
-      "RelativePath": "assets/index-6-Yo4B5P.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-6-Yo4B5P.js"
-    },
     {
       "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
       "SourceId": "Library",
@@ -53,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-99LVJsYo.css"
+    },
+    {
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-BO8GMPed.js",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "assets/index-BO8GMPed.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-BO8GMPed.js"
     },
     {
       "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",
