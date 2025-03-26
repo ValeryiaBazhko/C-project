@@ -51,9 +51,11 @@ jobs:
         working-directory: ./Library
         run: dotnet build --configuration Release --no-restore
 
+      # Publish .NET app including frontend files
       - name: dotnet publish
+        run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
         working-directory: ./Library
-        run: dotnet publish -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+      
 
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
@@ -69,8 +71,8 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
       
     permissions:
-      id-token: write
-      contents: read
+      id-token: write #This is required for requesting the JWT
+      contents: read #This is required for actions/checkout
 
     steps:
       - name: Download artifact from build job
