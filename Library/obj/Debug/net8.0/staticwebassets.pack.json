@@ -1,19 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
       "PackagePath": "staticwebassets\\assets\\index-99LVJsYo.css"
     },
     {
-      "Id": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-bMRVS-dB.js",
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-CUJVUl7w.js",
+      "PackagePath": "staticwebassets\\assets\\index-CUJVUl7w.js"
+    },
+    {
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-bMRVS-dB.js",
       "PackagePath": "staticwebassets\\assets\\index-bMRVS-dB.js"
     },
     {
-      "Id": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\index.html",
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\vite.svg",
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\vite.svg",
       "PackagePath": "staticwebassets\\vite.svg"
     },
     {

@@ -11,7 +11,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: './publish'
   DOTNET_VERSION: '8.0.x'
   NODE_VERSION: '20.x'
-  REACT_APP_API_URL: 'https://librarymanagementsystem1.azurewebsites.net' # Set your production API URL
+  REACT_APP_API_URL: 'https://librarymanagementsystem1.azurewebsites.net' 
 
 jobs:
   build:
@@ -22,13 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Setup Node.js for frontend build
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
       
-      # Build React frontend with production environment
       - name: Build frontend
         working-directory: ./frontend
         run: |
@@ -40,33 +38,28 @@ jobs:
           NODE_ENV: production
           REACT_APP_API_URL: ${{ env.REACT_APP_API_URL }}
 
-      # Setup .NET Core
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      # Restore dependencies
       - name: dotnet restore
         working-directory: ./Library
         run: dotnet restore
 
-      # Build .NET backend
       - name: Build with dotnet
         working-directory: ./Library
         run: dotnet build --configuration Release --no-restore
 
-      # Publish .NET app including frontend files
       - name: dotnet publish
         working-directory: ./Library
-        run: dotnet publish -c Release -o ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
+        run: dotnet publish -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
 
-      # Upload artifact for deployment
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: windows-latest

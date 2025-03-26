@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k7K+G1QxG92VdNhaCdJQw9eGRDQ2HMWIuYbe50SK0qY=",
+  "Hash": "QwXC2K08Q7fakAVu0xvwqfSGoEyuDJARhvaCNa+dU/s=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Library\\wwwroot",
       "Source": "Library",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "assets/index-99LVJsYo.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-99LVJsYo.css"
     },
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-bMRVS-dB.js",
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-bMRVS-dB.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "assets/index-bMRVS-dB.js",
       "AssetKind": "All",
@@ -55,10 +55,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-bMRVS-dB.js"
     },
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-CUJVUl7w.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "assets/index-CUJVUl7w.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CUJVUl7w.js"
+    },
+    {
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\vite.svg",
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\vite.svg",
       "SourceId": "Library",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
       "RelativePath": "vite.svg",
       "AssetKind": "All",
