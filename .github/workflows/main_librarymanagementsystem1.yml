@@ -30,8 +30,9 @@ jobs:
           
       - name: Clean up before install
         working-directory: ./frontend
-        run: Remove-Item -Recurse -Force node_modules package-lock.json -ErrorAction Ignore
-            npm install
+        run: Remove-Item -Recurse -Force node_modules -ErrorAction Ignore
+            Remove-Item package-lock.json -ErrorAction Ignore
+          npm install
       
       - name: Build frontend
         working-directory: ./frontend
