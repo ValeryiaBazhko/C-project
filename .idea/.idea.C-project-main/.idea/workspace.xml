@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="" />
+    <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/PublishOutputs.19f1888ba2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/PublishOutputs.19f1888ba2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/ref/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/refint/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.publish.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.publish.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library/wwwroot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +201,7 @@
       <workItem from="1742807134339" duration="1005000" />
       <workItem from="1742808178072" duration="40034000" />
       <workItem from="1742979065950" duration="405000" />
-      <workItem from="1742979552021" duration="1706000" />
+      <workItem from="1742979552021" duration="7428000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />

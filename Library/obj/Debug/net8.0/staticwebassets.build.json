@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TQEgmjIZmB8K3ryMy6EkdCe8R38s+Gr+/MUL3a5qQEo=",
+  "Hash": "LSMp5N0u9UI9FCVu8MnJXCrtrb/SB6yS+VsDEAP5vJg=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-BO8GMPed.js"
+    },
+    {
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-CUJVUl7w.js",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "assets/index-CUJVUl7w.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CUJVUl7w.js"
     },
     {
       "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",
