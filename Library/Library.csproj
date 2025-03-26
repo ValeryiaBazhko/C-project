@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <GenerateWwwrootOnPublish>true</GenerateWwwrootOnPublish>
-    <!-- Add these for better Azure deployment -->
     <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
     <UserSecretsId>your-unique-guid-here</UserSecretsId>
   </PropertyGroup>

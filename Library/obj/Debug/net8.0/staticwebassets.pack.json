@@ -1,16 +1,12 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-6-Yo4B5P.js",
+      "PackagePath": "staticwebassets\\assets\\index-6-Yo4B5P.js"
+    },
+    {
       "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
       "PackagePath": "staticwebassets\\assets\\index-99LVJsYo.css"
-    },
-    {
-      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-CUJVUl7w.js",
-      "PackagePath": "staticwebassets\\assets\\index-CUJVUl7w.js"
-    },
-    {
-      "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-bMRVS-dB.js",
-      "PackagePath": "staticwebassets\\assets\\index-bMRVS-dB.js"
     },
     {
       "Id": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",
