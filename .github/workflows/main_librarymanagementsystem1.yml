@@ -28,7 +28,9 @@ jobs:
         with:
           node-version: 20.x
           
-          
+      - name: Clean up before install
+        working-directory: ./frontend
+        run: rm -rf node_modules package-lock.json && npm install
       
       - name: Build frontend
         working-directory: ./frontend
