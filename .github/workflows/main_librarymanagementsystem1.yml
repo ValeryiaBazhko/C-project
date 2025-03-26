@@ -32,7 +32,6 @@ jobs:
         working-directory: ./frontend
         run: |
           npm cache clean --force 
-          rm node_modules
           npm install
           npm run build 
         env:
