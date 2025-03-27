@@ -4,6 +4,7 @@
     <attachedFolders />
     <explicitIncludes>
       <Path>Library</Path>
+      <Path>Library.Api.IntegrationTests</Path>
       <Path>frontend</Path>
     </explicitIncludes>
     <explicitExcludes />

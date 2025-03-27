@@ -12,7 +12,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         dateofbirth: ``
     });
 
-    const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
+    const BASE_URL = "https://localhost:5001";
 
 
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O6PICXH1QPhovm8rOLIacE46epHD5d8oOQtWKFq0DrU=",
+  "Hash": "A/go2fGxmJ3LZEGn10Yk0HHdxRTh0w23EYAUUFV1WRw=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -36,12 +36,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-99LVJsYo.css"
     },
     {
-      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-DIG3ZrlG.js",
+      "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\assets\\index-BHbtBA18.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
-      "RelativePath": "assets/index-DIG3ZrlG.js",
+      "RelativePath": "assets/index-BHbtBA18.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-DIG3ZrlG.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-BHbtBA18.js"
     },
     {
       "Identity": "C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\wwwroot\\index.html",

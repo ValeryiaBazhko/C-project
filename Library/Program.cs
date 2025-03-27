@@ -62,6 +62,13 @@ if (!Directory.Exists(frontendPath))
     Console.WriteLine("Please build your React/Vite app first and ensure it's in the correct location");
 }
 
+/* using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<LibraryContext>();
+    db.Database.Migrate();
+    db.
+} */
+
 app.UseHttpsRedirection();
 
 app.UseCors("Allow");

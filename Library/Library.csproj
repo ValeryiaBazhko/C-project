@@ -29,7 +29,10 @@
   <ItemGroup>
     <Content Remove="TestProject1\**"/>
   </ItemGroup>
-
+  
+  <ItemGroup>
+    <InternalsVisibleTo Include="Library.Api.IntegrationTests" />
+  </ItemGroup>
   <!-- Enhanced React files copy target -->
   <Target Name="CopyReactFiles" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
     <PropertyGroup>

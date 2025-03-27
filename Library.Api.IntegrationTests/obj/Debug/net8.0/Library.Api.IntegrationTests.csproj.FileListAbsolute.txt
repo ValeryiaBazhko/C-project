@@ -1,0 +1,8 @@
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\bin\Debug\net8.0\CoverletSourceRootsMapping_Library.Api.IntegrationTests
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.AssemblyInfoInputs.cache
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.AssemblyInfo.cs
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\vbazhko\testna\C-project-main\Library.Api.IntegrationTests\obj\Debug\net8.0\Library.Api.IntegrationTests.sourcelink.json
