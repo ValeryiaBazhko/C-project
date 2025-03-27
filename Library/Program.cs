@@ -4,6 +4,12 @@ using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+		.SetBasePath(Directory.GetCurrentDirectory())
+		.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+		.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+		.AddEnvironmentVariables();
+
 
 // Add services to the container.
 builder.Services.AddScoped<IBookRepository, BookRepository>();
@@ -17,10 +23,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
     {
-        policy.WithOrigins("https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net") // Explicitly allow frontend
+        policy.WithOrigins("https://localhost:5001", "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net") // Explicitly allow frontend
               .AllowAnyHeader()
-              .AllowAnyMethod();
-            .AllowCredentials(); // Only if using cookies/auth
+              .AllowAnyMethod()
+              .AllowCredentials(); // Only if using cookies/auth
     });
 });
 
@@ -31,7 +37,11 @@ builder.Services.AddDbContext<LibraryContext>(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var port  = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -43,7 +53,8 @@ if (app.Environment.IsDevelopment())
 
 var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
 Console.WriteLine($"Frontend directory path: {frontendPath}");
-
+Console.WriteLine(Directory.GetCurrentDirectory());
+    
 // Ensure the directory exists
 if (!Directory.Exists(frontendPath))
 {
@@ -53,9 +64,11 @@ if (!Directory.Exists(frontendPath))
 
 app.UseHttpsRedirection();
 
+app.UseCors("Allow");
+
 app.UseRouting();
 
-app.UseCors("Allow");
+
 
 // Serve static files from frontend dist directory
 app.UseStaticFiles(new StaticFileOptions
@@ -73,5 +86,7 @@ app.MapFallbackToFile("index.html", new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(frontendPath)
 });
+
+app.Urls.Add($"http://*:{port}");
 
 app.Run();

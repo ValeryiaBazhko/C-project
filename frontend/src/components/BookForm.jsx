@@ -17,7 +17,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
     const BASE_URL = "https://linuxlibrary-fyf7b2ctfbb2ebc3.westeurope-01.azurewebsites.net";
 
     useEffect(() => {
-        fetch(`${BASE_URL}}/api/authors`)
+        fetch(`${BASE_URL}/api/authors`)
             .then((res) => res.json())
             .then((data) => setAuthors(data))
             .catch((err) => console.error("Error fetching authors: ", err))
