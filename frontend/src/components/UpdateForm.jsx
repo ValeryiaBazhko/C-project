@@ -42,7 +42,7 @@ const UpdateForm = () => {
 
     const fetchAuthors = async () => {
         try {
-            const res = await fetch(`${BASE_URL}}/api/authors`);
+            const res = await fetch(`${BASE_URL}/api/authors`);
             if (!res.ok) throw new Error("Failed to fetch authors");
 
             const data = await res.json();

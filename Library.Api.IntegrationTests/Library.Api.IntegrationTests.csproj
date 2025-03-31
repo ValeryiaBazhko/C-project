@@ -8,7 +8,7 @@
         <IsTestProject>true</IsTestProject>
         <RootNamespace>Library.Api.IntegrationTests</RootNamespace>
         
-      <UserSecretsId>003f60d3-48d7-4272-bb2f-e9bdd4dfd13c</UserSecretsId>
+      <UserSecretsId>Library.Api.IntegrationTests-secrets</UserSecretsId>
   </PropertyGroup>
 
     <ItemGroup>
@@ -16,7 +16,9 @@
         <PackageReference Include="Dependous.Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
         <PackageReference Include="FluentAssertions" Version="8.2.0" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.14" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
         <PackageReference Include="xunit" Version="2.5.3" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
     </ItemGroup>

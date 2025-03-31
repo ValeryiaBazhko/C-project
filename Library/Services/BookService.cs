@@ -5,6 +5,7 @@ public class BookService
 {
     private readonly IBookRepository _bookRepository;
 
+
     public BookService(IBookRepository bookRepository)
     {
         _bookRepository = bookRepository;
@@ -63,6 +64,7 @@ public class BookService
         if(book.PublicationYear <= 0 || book.PublicationYear > DateTime.Now.Year){
             throw new ValidationException("Invalid publication year");
         }
+        
         return await _bookRepository.UpdateBook(book);
     }
 

@@ -139,5 +139,12 @@
     "C:\\Users\\vbazhko\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\vbazhko\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.0\\system.threading.tasks.dataflow.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\vbazhko\\testna\\C-project-main\\Library\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }

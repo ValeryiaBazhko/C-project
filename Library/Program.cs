@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Library.Models;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,21 +38,22 @@ builder.Services.AddDbContext<LibraryContext>(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var port  = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+//var port  = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 
 var app = builder.Build();
 
 
-
+var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    Console.WriteLine($"frontend: {frontendPath}");
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage(); // Moved inside development block
 }
 
-var frontendPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+
 Console.WriteLine($"Frontend directory path: {frontendPath}");
 Console.WriteLine(Directory.GetCurrentDirectory());
     
@@ -94,6 +96,6 @@ app.MapFallbackToFile("index.html", new StaticFileOptions
     FileProvider = new PhysicalFileProvider(frontendPath)
 });
 
-app.Urls.Add($"http://*:{port}");
+//app.Urls.Add($"http://*:{port}");
 
 app.Run();

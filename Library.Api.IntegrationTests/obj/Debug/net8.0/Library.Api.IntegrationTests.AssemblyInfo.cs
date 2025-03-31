@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("003f60d3-48d7-4272-bb2f-e9bdd4dfd13c")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("Library.Api.IntegrationTests-secrets")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Library.Api.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+475f9c1c37a5692e6607493260895e3ebac76449")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7a95b67d7403671f68d09b0b2b648a5a039dd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Library.Api.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Library.Api.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

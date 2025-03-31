@@ -5,29 +5,524 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d963449-6750-415d-863f-0ef68f95fe0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/C-project-main.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/Library.Api.IntegrationTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/Library.Api.IntegrationTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/LibraryWebApplicationFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/LibraryControllersTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Debug/net8.0/Library.Api.IntegrationTests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Library.Api.IntegrationTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Library.Api.IntegrationTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Library.Api.IntegrationTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/Library.Api.IntegrationTests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Api.IntegrationTests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/appsettings.Production.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/appsettings.Production.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/appsettings.Production.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/bin/Debug/net8.0/appsettings.Production.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Services/BookService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Build.Framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Build.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.Elfie.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.DiaSymReader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.DotNet.Scaffolding.Shared.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.NET.StringTools.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Npgsql.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.DependencyResolver.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.LibraryModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Packaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.ProjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/NuGet.Versioning.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Reflection.MetadataLoadContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/af/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/appsettings.Production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ar/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/az/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/bg/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/bn-BD/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/da/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/el/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fa/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fi-FI/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr-BE/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/he/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/hr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/hu/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/hy/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/id/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/is/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko-KR/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ku/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/lv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ms-MY/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/mt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/nb-NO/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/nb/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/nl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/pt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/Library.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/Library.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/appsettings.Production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/publish/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ro/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/sk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/sl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/sr-Latn/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/sr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/sv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/th-TH/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/uk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/uz-Latn-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/vi/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-CN/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.AspNetCore.Razor.Language.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Build.Framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Build.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Elfie.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.DiaSymReader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.DotNet.Scaffolding.Shared.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.NET.StringTools.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Npgsql.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.DependencyResolver.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.LibraryModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Packaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.ProjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/NuGet.Versioning.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Reflection.MetadataLoadContext.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/af/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/appsettings.Production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ar/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/az/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/bg/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/bn-BD/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/da/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/el/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fa/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fi-FI/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr-BE/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/he/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/hr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/hu/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/hy/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/id/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/is/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko-KR/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ku/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/lv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ms-MY/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/mt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/nb-NO/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/nb/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/nl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/pt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ro/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/sk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/sl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/sr-Latn/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/sr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/sv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/th-TH/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/uk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/uz-Latn-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/vi/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-CN/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.build.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Library.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.genpublishdeps.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/Library.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/PublishOutputs.19f1888ba2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/PublishOutputs.5f502d7ddd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/ref/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/refint/Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets.publish.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.build.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Library.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/obj/project.nuget.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/wwwroot/assets/index-99LVJsYo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/wwwroot/assets/index-DIG3ZrlG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/wwwroot/assets/index-BHbtBA18.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/wwwroot/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/wwwroot/vite.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.dll" afterDir="false" />
@@ -36,19 +531,16 @@
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/Library.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/appsettings.Production.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/appsettings.Production.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AuthorForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AuthorForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/BookForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BookForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/BookList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BookList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/UpdateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/UpdateForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +602,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23c4e6013839447196863c89842d515844200/85/04269cb8/AbstractInvocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2832e8c2b81f4641b3863f406ce3a519c90938/4d/f6566c0d/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3f0ea9a941cd4b7a8d16f1c5e5281755ff08/77/1123642c/IServiceScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42347e6b97634007988f4665aae3611d26ac40/dc/30e722fc/DbUpdateException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d68502a7ba6f4dffb88f50f2fa0ca47370908/8f/1c806151/GenericHostWebHostBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dc9b0757ec4d45e2b95a62e18e4b92867928/23/4679cd8c/IServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/3f0ea9a941cd4b7a8d16f1c5e5281755ff08/d7/7810e206/Microsoft.Extensions.DependencyInjection.Abstractions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ea354601080cd9165da8954e71b15647a63c14ecaf2192dbe2fbefce85e022/Record.cs" root0="FORCE_HIGHLIGHTING" />
@@ -120,8 +614,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d4b58d4f19922362e61be6b764873c3d446ca20cf99191c90bc38eeda9a36/ExceptionAsserts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c3ec25c53b94f51fa21da479c513e551efee2b5ae49a79934686d2bb714d46/TestInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7da56581ee7b20208f09e80b735961e4d5d7b9e5562bfdec94a75c57b391/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library.Api.IntegrationTests/LibraryWebApplicationFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library.Api.IntegrationTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d7dbe7c4cc75f01532fb6ce687bce710e21c95e6c44fd11dbe73c87d22758/WebApplicationFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Api.IntegrationTests/LibraryControllersTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Controllers/AuthorsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Controllers/BooksController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/Data/LibraryContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -159,10 +653,11 @@
     "29b434f5-234e-4783-a36b-375337e9e409.executor": "Debug",
     "2bdacfe8-8b88-4f24-990b-e658c4526817.executor": "Debug",
     "3a592955-7433-440b-8ed3-e0f6419fc896.executor": "Debug",
+    "3f57948f-521b-42b2-8fd6-6185c181644e.executor": "Debug",
     "55832150-8323-4c81-990e-2c1df1f5c6ef.executor": "Debug",
     "72e5ce89-a1c0-4e31-ab37-c79d1340b197.executor": "Debug",
     "829fcd9b-086c-4038-9728-504196e1bf8a.executor": "Run",
-    "83e03686-f05c-45b2-b468-5e33aa42a911.executor": "Run",
+    "83e03686-f05c-45b2-b468-5e33aa42a911.executor": "Debug",
     "87e86de3-1d85-4a1e-b556-2d3ae281e1a5.executor": "Debug",
     "9461ba4a-480d-4cd3-80f9-020feeb32794.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -172,6 +667,7 @@
     "d7c9ca35-27b6-42da-8472-085396dae438.executor": "Debug",
     "efb5c73b-c212-4f86-bdc8-c5ca28b15508.executor": "Debug",
     "f33ea4b1-6943-4d04-8e6e-c5553ca0a649.executor": "Debug",
+    "f9de1ee8-d3e8-43d7-80aa-11bb160fc1d1.executor": "Run",
     "fd7b0a58-07a5-4880-86bf-0e9d064ea6ba.executor": "Debug",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -204,7 +700,7 @@
       <workItem from="1742808178072" duration="40034000" />
       <workItem from="1742979065950" duration="405000" />
       <workItem from="1742979552021" duration="7428000" />
-      <workItem from="1742998560847" duration="21629000" />
+      <workItem from="1742998560847" duration="48131000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
