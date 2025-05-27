@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lerab\\C-project\\Library\\Library.csproj": {}
+    "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lerab\\C-project\\Library\\Library.csproj": {
+    "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lerab\\C-project\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\lerab\\C-project\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\lerab\\testna\\C-project\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\lerab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lerab\\C-project\\Library\\obj\\",
+        "outputPath": "C:\\Users\\lerab\\testna\\C-project\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lerab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,29 +47,25 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSql": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

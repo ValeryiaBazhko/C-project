@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 const BookForm = ({ onSubmit, initialData = null }) => {
     const [id, setId] = useState('');
     const [title, setTitle] = useState(``);
+    const [genre, setGenre] = useState('');
     const [publicationYear, setPublicationYear] = useState(``);
     const [authorId, setAuthorId] = useState(``);
     const [authors, setAuthors] = useState([]);
@@ -11,55 +12,69 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         id: ``,
         title: ``,
         publicationYear: ``,
-        authorId: ``
+        authorId: ``,
+        genre: ''
     });
     const navigate = useNavigate();
+    const BASE_URL = "http://localhost:5000";
 
     useEffect(() => {
-        fetch("https://localhost:7053/api/authors")
+        fetch(`${BASE_URL}/api/authors`)
             .then((res) => res.json())
             .then((data) => setAuthors(data))
             .catch((err) => console.error("Error fetching authors: ", err))
     }, []);
 
-    const validateForm = () => {
-        const newErrors = {};
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        setErrors({});
+
+        let newErrors = {};
+        let isValid = true;
 
         if (!title) {
+            isValid = false;
             newErrors.title = "Title is required";
         } else if (title.length > 100) {
+            isValid = false;
             newErrors.title = "Title is too long";
         }
 
-        if (!publicationYear || isNaN(publicationYear)) {
+        if (!publicationYear || isNaN(publicationYear) || publicationYear <= 0) {
+            isValid = false;
             newErrors.publicationYear = "Invalid publication year";
         }
 
         if (!authorId) {
+            isValid = false;
             newErrors.authorId = "Author is required";
         }
+        
+        if (!genre) {
+            isValid = false;
+            newErrors.genre = "Genre is required";
+        }
 
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
+        console.log(isValid);
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        if (!validateForm()) {
+        if (!isValid) {
+            setErrors(newErrors);
             return;
         }
+
 
         const bookData = {
             title,
             publicationYear,
-            authorId
+            authorId,
+            genre
         };
 
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books`, {
+            const res = await fetch(`${BASE_URL}/api/books`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {
@@ -78,6 +93,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             setTitle(``);
             setPublicationYear(``);
             setAuthorId(``);
+            setGenre(``);
         } catch (error) {
             console.error("Error submitting form: ", error);
         }
@@ -96,6 +112,11 @@ const BookForm = ({ onSubmit, initialData = null }) => {
                     <label htmlFor="publicationYear">Publication Year:</label>
                     <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} className="info" required />
                     {errors.publicationYear && <div style={{ color: `red` }}>{errors.publicationYear}</div>}
+                </div>
+                <div>
+                    <label htmlFor="genre">Genre:</label>
+                    <input type="text" id="genre" value={genre} onChange={(e) => setGenre(e.target.value)} className="info" required />
+                    {errors.genre && <div style={{ color: 'red' }}>{errors.genre}</div>}
                 </div>
                 <div>
                     <label htmlFor="authorId">Select Author:</label>

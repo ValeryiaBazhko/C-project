@@ -1,3 +1,5 @@
+using System;
+using System.ComponentModel.DataAnnotations;
 using Library.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,18 +12,41 @@ public class AuthorService
         _authorRepository = authorRepository;
     }
 
-    public async Task<List<Author>> GetAllAuthors()
+    public async Task<List<Author>> GetAllAuthors() ////
     {
         return await _authorRepository.GetAllAuthors();
     }
 
-    public async Task<Author?> GetAuthorById(int id)
+    public async Task<Author?> GetAuthorById(int id) ////
     {
-        return await _authorRepository.GetAuthorById(id);
+        if (id < 0)
+        {
+            throw new ValidationException("Invalid ID");
+        }
+
+        var author = await _authorRepository.GetAuthorById(id);
+        return author;
     }
 
-    public async Task<Author> AddAuthor(Author author)
+    public async Task<Author> AddAuthor(Author author) ///
     {
-        return await _authorRepository.AddAuthor(author);
+        
+        if (author.Id < 0)
+        {
+            throw new ValidationException("Invalid ID");
+        }
+
+        if (author.DateOfBirth > DateOnly.FromDateTime(DateTime.Now))
+        {
+            throw new ValidationException("Invalid Date");
+        }
+
+        if (string.IsNullOrWhiteSpace(author.Name))
+        {
+            throw new ValidationException("Invalid Name");
+        }
+        
+        await _authorRepository.AddAuthor(author);
+        return author;
     }
 }

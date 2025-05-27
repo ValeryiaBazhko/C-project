@@ -12,6 +12,8 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         dateofbirth: ``
     });
 
+    const BASE_URL = "http://localhost:5000";
+
 
 
     const handleSubmit = async (e) => {
@@ -30,7 +32,17 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             newErrors.name = "Title is too long";
         }
 
-        if (!dateofbirth) { //todo check if valid date
+        const date = new Date();
+        console.log(dateofbirth.toString());
+        console.log(date.toISOString().substr(0, 10));
+
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0, 10)) { //todo check if valid date
+            isValid = false;
+            newErrors.dateofbirth = "Invalid date of birth";
+        }
+
+
+        if (!dateofbirth || dateofbirth.toString() > date.toISOString().substring(0, 10)) {
             isValid = false;
             newErrors.dateofbirth = "Invalid date of birth";
         }
@@ -40,7 +52,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
             return;
         }
 
-        const dateofbirthutc = new Date(dateofbirth).toISOString();
+        const dateofbirthutc = new Date(dateofbirth).toISOString().split("T")[0];
 
         const bookData = {
             name,
@@ -50,7 +62,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         console.log("Submitting book data: ", bookData);
 
         try {
-            const res = await fetch(`https://localhost:7053/api/authors`, {
+            const res = await fetch(`${BASE_URL}/api/authors`, {
                 method: "POST",
                 body: JSON.stringify(bookData),
                 headers: {

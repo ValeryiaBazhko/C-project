@@ -1,6 +1,6 @@
 using Library.Models;
 using Microsoft.EntityFrameworkCore;
-
+using System.ComponentModel.DataAnnotations;
 public class BookService
 {
     private readonly IBookRepository _bookRepository;
@@ -10,7 +10,7 @@ public class BookService
         _bookRepository = bookRepository;
     }
 
-    public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null)
+    public async Task<List<Book>> GetAllBooks(int? pageNum = null, int? pageSize = null) //  
     {
         return await _bookRepository.GetAllBooks(pageNum, pageSize);
     }
@@ -23,17 +23,46 @@ public class BookService
     public async Task<Book?> GetBookById(int id)
     {
 
-        return await _bookRepository.GetBookById(id);
-
+        if (id < 0)
+        {
+            throw new ValidationException("Invalid ID");
+        }
+        
+        var book = await _bookRepository.GetBookById(id); 
+        return book;
     }
 
 
-    public async Task<Book> AddBook(Book book)
+
+    public async Task<Book> AddBook(Book book) ////
     {
-        return await _bookRepository.AddBook(book);
+        if (string.IsNullOrWhiteSpace(book.Title))
+        {
+            throw new ValidationException("Title cannot be empty");
+        }
+
+        if (book.Id < 0)
+        {
+            throw new ValidationException("Invalid ID");
+        }
+
+        if (book.PublicationYear <= 0 || book.PublicationYear > DateTime.Now.Year)
+        {
+            throw new ValidationException("Invalid publication year");
+        }
+
+        await _bookRepository.AddBook(book);
+        return book;
     }
-    public async Task<bool> UpdateBook(Book book)
+
+    public async Task<bool> UpdateBook(Book book) ///
     {
+        if(string.IsNullOrWhiteSpace(book.Title)){
+            throw new ValidationException("Title cannot be empty");
+        }
+        if(book.PublicationYear <= 0 || book.PublicationYear > DateTime.Now.Year){
+            throw new ValidationException("Invalid publication year");
+        }
         return await _bookRepository.UpdateBook(book);
     }
 
@@ -47,7 +76,11 @@ public class BookService
 
         var books = await _bookRepository.GetAllBooks();
 
-
+        if (string.IsNullOrWhiteSpace(query)) 
+        {
+            return books;
+            
+        }
         var similarBooks = books
             .Select(book => new
             {
@@ -63,9 +96,10 @@ public class BookService
     }
 
 
-    internal static int LevDistance(string a, string b)
+    public static int LevDistance(string a, string b)
     {
-
+        a.ToLower();
+        b.ToLower();
         if (string.IsNullOrEmpty(a) && string.IsNullOrEmpty(b)) return 0;
         if (string.IsNullOrEmpty(a)) return b.Length;
         if (string.IsNullOrEmpty(b)) return a.Length;
@@ -93,7 +127,7 @@ public class BookService
         return distance[lenghtA, lenghtB];
     }
 
-    internal static int WordOverlap(string a, string b)
+    public static int WordOverlap(string a, string b)
     {
         var words1 = a.ToLower().Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);
         var words2 = b.ToLower().Split(new char[] { ' ', ':', '-', ',', '.', ';', '?' }, StringSplitOptions.RemoveEmptyEntries);

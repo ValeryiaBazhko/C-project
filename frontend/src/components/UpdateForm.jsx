@@ -6,14 +6,18 @@ const UpdateForm = () => {
     const [title, setTitle] = useState(``);
     const [publicationYear, setPublicationYear] = useState(``);
     const [authorId, setAuthorId] = useState(``);
+    const [genre , setGenre] = useState(``);
     const [authors, setAuthors] = useState([]);
     const [errors, setErrors] = useState({
         id: ``,
         title: ``,
         publicationYear: ``,
-        authorId: ``
+        authorId: ``,
+        genre: ``,
     });
     const nav = useNavigate();
+
+    const BASE_URL = "http://localhost:5000";
 
     useEffect(() => {
         fetchBook();
@@ -25,7 +29,7 @@ const UpdateForm = () => {
         try {
 
 
-            const res = await fetch(`https://localhost:7053/api/books/${id}`);
+            const res = await fetch(`${BASE_URL}/api/books/${id}`);
             if (!res.ok) throw new Error("Failed to fetch book details");
 
 
@@ -33,6 +37,7 @@ const UpdateForm = () => {
             setTitle(data.title);
             setPublicationYear(data.publicationYear);
             setAuthorId(data.authorId);
+            setGenre(data.genre);
         } catch (error) {
             setErrors("Error fetching book details: ", error);
         }
@@ -40,7 +45,7 @@ const UpdateForm = () => {
 
     const fetchAuthors = async () => {
         try {
-            const res = await fetch(`https://localhost:7053/api/authors`);
+            const res = await fetch(`${BASE_URL}/api/authors`);
             if (!res.ok) throw new Error("Failed to fetch authors");
 
             const data = await res.json();
@@ -67,6 +72,10 @@ const UpdateForm = () => {
         if (!authorId) {
             newErrors.authorId = "Author is required";
         }
+        
+        if(!genre) {
+            newErrors.genre = "Genre is required";
+        }
 
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
@@ -81,7 +90,7 @@ const UpdateForm = () => {
         }
 
         try {
-            const res = await fetch(`https://localhost:7053/api/books/${id}`, {
+            const res = await fetch(`${BASE_URL}/api/books/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",
@@ -90,7 +99,8 @@ const UpdateForm = () => {
                     id: id,
                     title,
                     publicationYear,
-                    authorId
+                    authorId, 
+                    genre
                 }),
             });
 
@@ -118,6 +128,12 @@ const UpdateForm = () => {
                     <input type="number" value={publicationYear}
                         onChange={(e) => setPublicationYear(e.target.value)}
                         required />
+                </div>
+
+                <div>
+                    <label>Genre:</label>
+                    <input type="text" value={title} onChange={(e) => setGenre(e.target.value)}
+                           required />
                 </div>
 
                 <div>

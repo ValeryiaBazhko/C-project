@@ -19,7 +19,7 @@ public class BookRepository : IBookRepository
             books = books.Skip((pageNum.Value - 1) * pageSize.Value).Take(pageSize.Value);
         }
 
-        return await books.ToListAsync();
+        return await books.ToListAsync() ?? new List<Book>();
     }
 
     public async Task<Book> AddBook(Book book)

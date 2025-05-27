@@ -21,15 +21,8 @@ public class Book
     [Required(ErrorMessage = "AuthorId is required")]
     public required int AuthorId { get; set; }
 
-
-
-
-
-
-
-
-
-
+    [Required(ErrorMessage = "Genre is required")]
+    public string Genre { get; set; }
     public class ValidDate : ValidationAttribute
     {
         public override bool IsValid(object value)

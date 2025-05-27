@@ -1,0 +1,1090 @@
+<changelist name="Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]" date="1742886322252" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 3/25/2025 8:05 AM [Changes]" />
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Configuration.ConfigurationManager.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Configuration.ConfigurationManager.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Build.Framework.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Build.Framework.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ms-MY/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/th-TH/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Library.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.Protocols.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.Protocols.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/hr/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Composition.Runtime.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Composition.Runtime.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.Tokens.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.Tokens.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.OpenApi.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.OpenApi.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/el/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" />
+    <option name="AFTER_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/TestProject1.assets.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/az/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Caching.Memory.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Caching.Memory.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.assets.cache" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.assets.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/refint/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Scripting.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Features.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.Logging.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.Logging.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Text.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Text.Json.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Frameworks.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Frameworks.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/nb/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.DependencyResolver.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.DependencyResolver.Core.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Text.Encodings.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Text.Encodings.Web.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/uk/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.genpublishdeps.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.genpublishdeps.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Composition.AttributedModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Composition.AttributedModel.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.CodeDom.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.CodeDom.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Runtime.Caching.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/hu/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Design.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.Design.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/sl/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.DependencyInjection.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Library/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ku/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.IdentityModel.JsonWebTokens.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources13.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Composition.Hosting.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Composition.Hosting.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Reflection.MetadataLoadContext.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Reflection.MetadataLoadContext.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient.SNI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/TestProject1.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.InMemory.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Common.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.dll" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Razor.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Razor.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.Features.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Build.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Build.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Azure.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Azure.Core.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Runtime.Caching.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Runtime.Caching1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/bg/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources14.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Logging.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko-KR/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources15.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Humanizer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Library.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.pdb" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/sr-Latn/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources16.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/vi/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources17.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.LibraryModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.LibraryModel.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/mt/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources18.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources19.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/nb-NO/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources20.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library1.pdb" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.SqlServer.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/sr/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources21.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/bin/Debug/net8.0/Library.exe" />
+    <option name="AFTER_PATH" value="Library/bin/Debug/net8.0/Library.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library1.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/bin/Debug/net8.0/Library.dll" />
+    <option name="AFTER_PATH" value="Library/bin/Debug/net8.0/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Packaging.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Packaging.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/sv/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources22.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.DependencyModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.DependencyModel.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Composition.TypedParts.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Composition.TypedParts.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/id/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources23.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources24.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Data.SqlClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.DotNet.Scaffolding.Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.DotNet.Scaffolding.Shared.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/apphost.exe" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/apphost.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.ProjectModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.ProjectModel.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Azure.Identity.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Azure.Identity.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources5.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/nl/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources25.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Newtonsoft.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Newtonsoft.Json.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.IO.Pipelines.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.IO.Pipelines.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr-BE/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources26.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient.SNI1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.IdentityModel.Tokens.Jwt.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.IdentityModel.Tokens.Jwt.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Identity.Client.Extensions.Msal.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/TestProject1.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Bcl.AsyncInterfaces.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.Relational.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Options.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Options.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/hy/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources27.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/uz-Cyrl-UZ/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources28.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources29.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Versioning.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Versioning.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources30.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fi-FI/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources31.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Diagnostics.DiagnosticSource.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Diagnostics.DiagnosticSource.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/es/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources32.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/ref/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Logging.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Logging.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Configuration.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources33.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.AssemblyInfoInputs1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Identity.Client.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Identity.Client.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources8.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Swashbuckle.AspNetCore.Swagger.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Swashbuckle.AspNetCore.Swagger.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/lv/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources34.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.Elfie.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Elfie.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/sk/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources35.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/bin/Debug/net8.0/Library.pdb" />
+    <option name="AFTER_PATH" value="Library/bin/Debug/net8.0/Library.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library2.pdb" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/refint/Library.dll" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/refint/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library4.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Text.Encodings.Web1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="TestProject1/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="TestProject1/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.csproj.CoreCompileInputs1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Configuration.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Configuration.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/is/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources36.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.MvcApplicationPartsAssemblyInfo.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.MvcApplicationPartsAssemblyInfo.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Extensions.Caching.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/dotnet-aspnet-codegenerator-design.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/dotnet-aspnet-codegenerator-design.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.NET.StringTools.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.NET.StringTools.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.SqlServer.Server.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.SqlServer.Server.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/ref/Library.dll" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/ref/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.genruntimeconfig1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.assets1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fa/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources37.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/he/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources38.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Security.Cryptography.ProtectedData.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Security.Cryptography.ProtectedData.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library6.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Library.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library7.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/de/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources9.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Swashbuckle.AspNetCore.SwaggerUI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library.csproj.AssemblyReference1.cache" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Features.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/da/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources39.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.DiaSymReader.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.DiaSymReader.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Memory.Data.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Memory.Data.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/af/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources40.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/obj/Release/net8.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/apphost1.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources10.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.CodeAnalysis.CSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ro/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources41.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Formats.Asn1.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Formats.Asn1.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ja/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources42.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/obj/Debug/net8.0/Library.pdb" />
+    <option name="AFTER_PATH" value="Library/obj/Debug/net8.0/Library.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Library3.pdb" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Npgsql.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Npgsql.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Mono.TextTemplating.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Mono.TextTemplating.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Features.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.AspNetCore.Razor.Language.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.AspNetCore.Razor.Language.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.EntityFrameworkCore.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.EntityFrameworkCore.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/bn-BD/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources43.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient.SNI2.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources11.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources44.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.Data.SqlClient.SNI3.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/NuGet.Protocol.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/NuGet.Protocol.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Workspaces.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-CN/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources45.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Swashbuckle.AspNetCore.SwaggerGen.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/ar/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources46.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/System.Composition.Convention.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/System.Composition.Convention.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.Scripting.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Microsoft.CodeAnalysis.CSharp.Workspaces.resources12.dll" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="Library/bin/Release/net8.0/uz-Latn-UZ/Humanizer.resources.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.C-project-main/.idea/shelf/Uncommitted_changes_before_Update_at_3_25_2025_8_05_AM_[Changes]/Humanizer.resources47.dll" />
+  </binary>
+</changelist>
