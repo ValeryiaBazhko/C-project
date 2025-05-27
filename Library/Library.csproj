@@ -11,6 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt" Version="1.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -40,6 +42,7 @@
     <_ContentIncludedByDefault Remove="wwwroot\assets\index-DCwqIRPr.js" />
     <_ContentIncludedByDefault Remove="wwwroot\index.html" />
     <_ContentIncludedByDefault Remove="wwwroot\vite.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-Bgi5zKFa.js" />
   </ItemGroup>
 
   <Target Name="NpmInstall" BeforeTargets="Build" Condition="!Exists('$(ProjectDir)..\frontend\node_modules')">

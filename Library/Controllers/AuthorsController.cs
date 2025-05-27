@@ -46,5 +46,14 @@ namespace Library.Controllers
 
             return CreatedAtAction("GetAuthor", new { id = author.Id }, author);
         }
+        
+        [HttpDelete("delete-all")]
+        public async Task<IActionResult> DeleteAllAuthors()
+        {
+            await _authorService.DeleteAllAuthorsAsync();
+            return Ok("All authors deleted");
+        }
     }
+    
+    
 }

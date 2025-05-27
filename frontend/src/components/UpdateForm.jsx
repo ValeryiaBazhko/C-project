@@ -99,15 +99,15 @@ const UpdateForm = () => {
                     id: id,
                     title,
                     publicationYear,
-                    authorId, 
-                    genre
+                    genre,
+                    authorId
                 }),
             });
 
             if (!res.ok) throw new Error("Failed to update book");
 
 
-            nav("/");
+            nav("/home");
         } catch (error) {
             console.error("Error updating book: ", error);
         }
@@ -132,7 +132,7 @@ const UpdateForm = () => {
 
                 <div>
                     <label>Genre:</label>
-                    <input type="text" value={title} onChange={(e) => setGenre(e.target.value)}
+                    <input type="text" value={genre} onChange={(e) => setGenre(e.target.value)}
                            required />
                 </div>
 
@@ -147,7 +147,7 @@ const UpdateForm = () => {
                 </div>
 
                 <button type="submit">Update Book</button>
-                <button type="button" onClick={() => nav("/")}>Cancel</button>
+                <button type="button" onClick={() => nav("/home")}>Cancel</button>
             </form>
         </div>
     );

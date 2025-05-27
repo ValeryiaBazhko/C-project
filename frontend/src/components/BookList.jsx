@@ -113,7 +113,7 @@ const BookList = () => {
                                 <strong>{book.title}</strong> (Published: {book.publicationYear})<br />
                                 <em>Genre:</em> {book.genre}<br />
                                 <span><strong>Author:</strong> {authors[book.authorId] || "Unknown"}</span><br />
-                                <Link to={`books/edit/${book.id}`}>
+                                <Link to={`https://localhost:5001/books/edit/${book.id}`}>
                                     <button>Edit</button>
                                 </Link>
                                 <button onClick={() => deleteBook(book.id)}>Delete</button>

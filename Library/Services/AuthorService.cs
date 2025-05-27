@@ -51,4 +51,9 @@ public class AuthorService
         await _authorRepository.AddAuthor(author);
         return author;
     }
+    
+    public async Task DeleteAllAuthorsAsync()
+    {
+        await _authorRepository.DeleteAllAuthorsAsync();
+    }
 }

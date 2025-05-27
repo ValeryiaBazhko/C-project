@@ -9,6 +9,8 @@ C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.deps.json
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.runtimeconfig.json
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.dll
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.pdb
+C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Humanizer.dll
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll

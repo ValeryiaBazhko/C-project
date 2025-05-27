@@ -67,6 +67,7 @@ public class BookRepository : IBookRepository
         exisBook.Title = book.Title;
         exisBook.AuthorId = book.AuthorId;
         exisBook.PublicationYear = book.PublicationYear;
+        exisBook.Genre = book.Genre;
 
         await _context.SaveChangesAsync();
         return true;

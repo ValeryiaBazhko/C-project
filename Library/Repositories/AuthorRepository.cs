@@ -50,4 +50,11 @@ public class AuthorRepository : IAuthorRepository
         _cache.Remove("authors_list");
         return author;
     }
+    
+    public async Task DeleteAllAuthorsAsync()
+    {
+        var allAuthors = await _context.Authors.ToListAsync();
+        _context.Authors.RemoveRange(allAuthors);
+        await _context.SaveChangesAsync();
+    }
 }

@@ -12,20 +12,36 @@ public class UserService
 
     public async Task<User?> AuthenticateAsync(string email, string password)
     {
-        if (email.Trim().ToLower() == "admin@admin" && password == "admin")
+        var user = await _userRepo.GetUserByEmailAsync(email);
+    
+        if (user == null)
         {
-            return new User
-            {
-                Id = 0,
-                FirstName = "Admin",
-                LastName = "User",
-                Email = "admin@admin",
-                Password = "admin",
-                Role = true
-            };
+            Console.WriteLine($"User not found: {email}");
+            return null;
         }
         
-        var user = await _userRepo.GetUserByEmailAndPasswordAsync(email, password);
-        return user;
+        
+        if (user.Password == password)
+        {
+            return user;
+        }
+        
+        if (BCrypt.Net.BCrypt.Verify(password, user.Password))
+        {
+            return user;
+        }
+        
+        return null;
+    }
+    
+    public async Task<bool> UserExistsAsync(string email)
+    {
+        return await _userRepo.GetUserByEmailAsync(email) != null;
+    }
+
+    public async Task CreateUserAsync(User user)
+    {
+        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+        await _userRepo.AddUserAsync(user);
     }
 }

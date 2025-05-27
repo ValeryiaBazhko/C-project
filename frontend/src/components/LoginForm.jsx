@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const LoginForm = () => {
+const LoginForm = ({onAuthSuccess=false}) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
@@ -19,18 +19,18 @@ const LoginForm = () => {
                 body: JSON.stringify({ email, password }),
                 headers: {
                     "Content-Type": "application/json",
-                    "Accept": "application/json" // Explicitly ask for JSON response
-                },
-                credentials: 'include' // If using cookies/sessions
+                    "Accept": "application/json" 
+                }
             });
 
             if (!response.ok) {
-                // Try to get error message from response
                 const errorText = await response.text();
                 throw new Error(errorText || "Invalid email or password");
             }
-
-            // Check if response has content before parsing
+            
+            const data = await response.json();
+            onAuthSuccess(data);
+            
             const contentLength = response.headers.get('content-length');
             if (contentLength && parseInt(contentLength) > 0) {
                 const data = await response.json();
@@ -41,7 +41,7 @@ const LoginForm = () => {
                 }
             }
 
-            navigate("/home"); // Redirect to home page
+            navigate("/home"); 
         } catch (err) {
             setError(err.message);
         }
@@ -71,6 +71,7 @@ const LoginForm = () => {
 
                 {error && <p style={{ color: "red" }}>{error}</p>}
             </form>
+            <p>Don't have an account? <a href="/signup">Sign up</a></p>
         </div>
     );
 };
