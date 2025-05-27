@@ -16,7 +16,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         genre: ''
     });
     const navigate = useNavigate();
-    const BASE_URL = "http://localhost:5000";
+    const BASE_URL = "https://localhost:5001";
 
     useEffect(() => {
         fetch(`${BASE_URL}/api/authors`)

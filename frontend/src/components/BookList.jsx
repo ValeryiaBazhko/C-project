@@ -12,7 +12,7 @@ const BookList = () => {
     const [noBooks, setNoBooks] = useState(false);
     const navigate = useNavigate();
 
-    const BASE_URL = "http://localhost:5000";
+    const BASE_URL = "https://localhost:5001";
 
     useEffect(() => {
         if (search.trim() === "") {

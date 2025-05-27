@@ -1,6 +1,11 @@
+using System;
+using System.Collections.Generic;
 using Library.Models;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
+
 public class BookService
 {
     private readonly IBookRepository _bookRepository;

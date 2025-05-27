@@ -1,6 +1,8 @@
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\web.config
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\appsettings.json
+C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\http-client.env.json
+C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\http-client.private.env.json
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.staticwebassets.runtime.json
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.exe
 C:\Users\lerab\testna\C-project\Library\bin\Debug\net8.0\Library.deps.json

@@ -36,7 +36,19 @@
     <_ContentIncludedByDefault Remove="publish\appsettings.json" />
     <_ContentIncludedByDefault Remove="publish\Library.deps.json" />
     <_ContentIncludedByDefault Remove="publish\Library.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-99LVJsYo.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-DCwqIRPr.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\vite.svg" />
   </ItemGroup>
+
+  <Target Name="NpmInstall" BeforeTargets="Build" Condition="!Exists('$(ProjectDir)..\frontend\node_modules')">
+    <Exec Command="cd ../frontend &amp; npm install" />
+  </Target>
+
+  <Target Name="NpmRunDev" BeforeTargets="Run">
+    <Exec Command="cd ../frontend &amp; start npm run dev" ContinueOnError="true" />
+  </Target>
 
   <!-- Enhanced React files copy target -->
   <Target Name="CopyReactFiles" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">

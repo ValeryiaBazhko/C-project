@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wIl6JflaK+UeAyAp0xLtbnNb2LmIThTzMxOHppfMbxU=",
+  "Hash": "CHhosIdQu9IUtJ8G9wibx9/wEgIwLz1JMllHbpbFlD0=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -36,12 +36,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-99LVJsYo.css"
     },
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-DCwqIRPr.js",
+      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-Bgi5zKFa.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
-      "RelativePath": "assets/index-DCwqIRPr.js",
+      "RelativePath": "assets/index-Bgi5zKFa.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-DCwqIRPr.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-Bgi5zKFa.js"
     },
     {
       "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\index.html",
