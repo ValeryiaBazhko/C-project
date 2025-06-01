@@ -1,3 +1,5 @@
+using System;
+using System.Threading.Tasks;
 using Library.Models;
 using Library.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +20,9 @@ public class UserRepository : IUserRepository
     
     public async Task<User?> GetUserByEmailAsync(string email)
     {
-        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        Console.WriteLine(user.Role);
+        return user;
     }
 
     public async Task AddUserAsync(User user)

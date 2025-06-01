@@ -43,6 +43,13 @@
     <_ContentIncludedByDefault Remove="wwwroot\index.html" />
     <_ContentIncludedByDefault Remove="wwwroot\vite.svg" />
     <_ContentIncludedByDefault Remove="wwwroot\assets\index-Bgi5zKFa.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-BzpVCIFG.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-B9uSaYaN.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-Bg7oiWM-.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-CQHeiKMm.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-mvgwjP9T.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-BukqVXoH.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-Dl9Ze-Wy.css" />
   </ItemGroup>
 
   <Target Name="NpmInstall" BeforeTargets="Build" Condition="!Exists('$(ProjectDir)..\frontend\node_modules')">

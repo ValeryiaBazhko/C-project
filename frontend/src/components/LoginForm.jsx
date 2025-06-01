@@ -7,7 +7,7 @@ const LoginForm = ({onAuthSuccess=false}) => {
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
-    const BASE_URL = "https://localhost:5001";
+    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app";
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -48,6 +48,7 @@ const LoginForm = ({onAuthSuccess=false}) => {
     };
 
     return (
+        <main className="main-content">
         <div className="login-form-container">
             <h2>Login</h2>
             <form onSubmit={handleLogin}>
@@ -73,6 +74,7 @@ const LoginForm = ({onAuthSuccess=false}) => {
             </form>
             <p>Don't have an account? <a href="/signup">Sign up</a></p>
         </div>
+        </main>
     );
 };
 

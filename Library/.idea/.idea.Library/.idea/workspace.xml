@@ -14,15 +14,14 @@
     <list default="true" id="65f9a711-3101-4bac-b7f3-f4d29be6679c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthorsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/LibraryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/LibraryContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/AuthorRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/AuthorRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/BookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IAuthorRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/IAuthorRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Loan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/AuthorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/BCrypt.Net-Next.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/DevOne.Security.Cryptography.BCrypt.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.deps.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.dll" beforeDir="false" />
@@ -237,21 +236,23 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.GlobalUsings.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.assets.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.Up2Date" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.genruntimeconfig.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
@@ -261,22 +262,29 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.build.Library.props" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Library.props" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Library.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Library.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/assets/index-99LVJsYo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/assets/index-Bgi5zKFa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/assets/index-CIn-G7MD.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/vite.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/AuthorForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/AuthorForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/BookForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/BookForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/BookList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/BookList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Signup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/UpdateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/UpdateForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/styles/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/styles/mystyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,7 +430,7 @@
       <workItem from="1742218607650" duration="20000" />
       <workItem from="1748288061986" duration="2133000" />
       <workItem from="1748290301557" duration="6143000" />
-      <workItem from="1748363014662" duration="8795000" />
+      <workItem from="1748363014662" duration="22099000" />
     </task>
     <servers />
   </component>
@@ -430,6 +438,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -17,13 +17,15 @@ builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<AuthorService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<ILoanRepository, LoanRepository>();
+builder.Services.AddScoped<LoanService>();
 builder.Services.AddMemoryCache();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Allow", policy =>
     {
-        policy.WithOrigins("http://localhost:5174", "https://localhost:5174")
+        policy.WithOrigins("http://localhost:5174", "https://localhost:5174", "https://11f9-95-159-226-202.ngrok-free.app/")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

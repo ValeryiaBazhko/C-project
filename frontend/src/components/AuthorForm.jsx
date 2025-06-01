@@ -12,7 +12,7 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
         dateofbirth: ``
     });
 
-    const BASE_URL = "https://localhost:5001";
+    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app";
 
 
 
@@ -87,26 +87,53 @@ const AuthorForm = ({ onSubmit, initialData = null }) => {
     };
 
     return (
-        <div>
-            <h2> Add new Author: </h2>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} className="info" />
-                    {errors.name && <div style={{ color: 'red' }}>{errors.name}</div>}
-                </div>
+        <main className="main-content">
+            <div className="form-container">
+                <h2>Add New Author</h2>
+                <form onSubmit={handleSubmit} className="author-form">
+                    <div className="form-group">
+                        <label htmlFor="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            className={`form-input ${errors.name ? 'error' : ''}`}
+                            placeholder="Enter author's name"
+                        />
+                        {errors.name && <div className="error-message">{errors.name}</div>}
+                    </div>
 
-                <div>
-                    <label htmlFor="dateofbirth" >Date of Birth:</label>
-                    <input type="date" id="dateofbirth" value={dateofbirth} onChange={(e) => setDateofbirth(e.target.value)} className="info" />
-                    {errors.dateofbirth && <div style={{ color: 'red' }}>{errors.dateofbirth}</div>}
-                </div>
+                    <div className="form-group">
+                        <label htmlFor="dateofbirth">Date of Birth:</label>
+                        <input
+                            type="date"
+                            id="dateofbirth"
+                            value={dateofbirth}
+                            onChange={(e) => setDateofbirth(e.target.value)}
+                            className={`form-input ${errors.dateofbirth ? 'error' : ''}`}
+                            max={new Date().toISOString().split('T')[0]}
+                        />
+                        {errors.dateofbirth && <div className="error-message">{errors.dateofbirth}</div>}
+                    </div>
 
-                <button type="submit">Add the Author</button>
-                <button onClick={() => navigate("/")}> Back</button>
-            </form>
+                    <div className="form-actions">
+                        <button type="submit" className="submit-button">
+                            {initialData ? 'Update Author' : 'Add Author'}
+                        </button>
+                        <button
+                            type="button"
+                            onClick={() => navigate(-1)}
+                            className="cancel-button"
+                        >
+                            Cancel
+                        </button>
+                    </div>
 
-        </div>
+                    {errors.submit && <div className="error-message submit-error">{errors.submit}</div>}
+                </form>
+            </div>
+        </main>
     );
 };
 

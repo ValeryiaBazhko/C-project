@@ -16,7 +16,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
         genre: ''
     });
     const navigate = useNavigate();
-    const BASE_URL = "https://localhost:5001";
+    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app";
 
     useEffect(() => {
         fetch(`${BASE_URL}/api/authors`)
@@ -50,7 +50,7 @@ const BookForm = ({ onSubmit, initialData = null }) => {
             isValid = false;
             newErrors.authorId = "Author is required";
         }
-        
+
         if (!genre) {
             isValid = false;
             newErrors.genre = "Genre is required";
@@ -100,41 +100,88 @@ const BookForm = ({ onSubmit, initialData = null }) => {
     };
 
     return (
-        <div>
-            <h2>{initialData ? `Edit Book` : `Add New Book`}</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="title">Title:</label>
-                    <input type="text" id="title" value={title} onChange={(e) => setTitle(e.target.value)} className="info" required />
-                    {errors.title && <div style={{ color: `red` }}>{errors.title}</div>}
-                </div>
-                <div>
-                    <label htmlFor="publicationYear">Publication Year:</label>
-                    <input type="number" id="publicationYear" value={publicationYear} onChange={(e) => setPublicationYear(e.target.value)} className="info" required />
-                    {errors.publicationYear && <div style={{ color: `red` }}>{errors.publicationYear}</div>}
-                </div>
-                <div>
-                    <label htmlFor="genre">Genre:</label>
-                    <input type="text" id="genre" value={genre} onChange={(e) => setGenre(e.target.value)} className="info" required />
-                    {errors.genre && <div style={{ color: 'red' }}>{errors.genre}</div>}
-                </div>
-                <div>
-                    <label htmlFor="authorId">Select Author:</label>
-                    <select id="authorId" value={authorId} onChange={(e) => setAuthorId(e.target.value)} required>
-                        <option value="">Select an Author</option>
-                        {authors.map((author) => (
-                            <option key={author.id} value={author.id}>
-                                {author.name}
-                            </option>
-                        ))}
-                    </select>
-                    {errors.authorId && <div style={{ color: `red` }}>{errors.authorId}</div>}
-                </div>
-                <button type="submit">Add Book</button>
-                <button onClick={() => navigate("/")}>Back</button>
-            </form>
-        </div>
-    );
-};
+        <main className="main-content">
+            <div className="form-container">
+                <h2>{initialData ? `Edit Book` : `Add New Book`}</h2>
+                <form onSubmit={handleSubmit} className="book-form">
+                    <div className="form-group">
+                        <label htmlFor="title">Title:</label>
+                        <input
+                            type="text"
+                            id="title"
+                            value={title}
+                            onChange={(e) => setTitle(e.target.value)}
+                            className={`form-input ${errors.title ? 'error' : ''}`}
+                            required
+                            placeholder="Enter book title"
+                        />
+                        {errors.title && <div className="error-message">{errors.title}</div>}
+                    </div>
 
+                    <div className="form-group">
+                        <label htmlFor="publicationYear">Publication Year:</label>
+                        <input
+                            type="number"
+                            id="publicationYear"
+                            value={publicationYear}
+                            onChange={(e) => setPublicationYear(e.target.value)}
+                            className={`form-input ${errors.publicationYear ? 'error' : ''}`}
+                            required
+                            min="1000"
+                            max={new Date().getFullYear()}
+                            placeholder="YYYY"
+                        />
+                        {errors.publicationYear && <div className="error-message">{errors.publicationYear}</div>}
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="genre">Genre:</label>
+                        <input
+                            type="text"
+                            id="genre"
+                            value={genre}
+                            onChange={(e) => setGenre(e.target.value)}
+                            className={`form-input ${errors.genre ? 'error' : ''}`}
+                            required
+                            placeholder="Enter book genre"
+                        />
+                        {errors.genre && <div className="error-message">{errors.genre}</div>}
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="authorId">Select Author:</label>
+                        <select
+                            id="authorId"
+                            value={authorId}
+                            onChange={(e) => setAuthorId(e.target.value)}
+                            className={`form-input ${errors.authorId ? 'error' : ''}`}
+                            required
+                        >
+                            <option value="">Select an Author</option>
+                            {authors.map((author) => (
+                                <option key={author.id} value={author.id}>
+                                    {author.name}
+                                </option>
+                            ))}
+                        </select>
+                        {errors.authorId && <div className="error-message">{errors.authorId}</div>}
+                    </div>
+
+                    <div className="form-actions">
+                        <button type="submit" className="submit-button">
+                            {initialData ? 'Update Book' : 'Add Book'}
+                        </button>
+                        <button
+                            type="button"
+                            onClick={() => navigate(-1)}
+                            className="cancel-button"
+                        >
+                            Back
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    );
+}
 export default BookForm;

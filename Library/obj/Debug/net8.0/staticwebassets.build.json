@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AD+lUx/ziR7dIz++tzrAW8zpJPEH3Y+DxdNDK1ZV1p8=",
+  "Hash": "T1P3EfGvemJ2WIUYVlHmfT5RMNFCFts/Aljmzgvk1mk=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-99LVJsYo.css",
+      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-DBVMBH9D.js",
       "SourceId": "Library",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
-      "RelativePath": "assets/index-99LVJsYo.css",
+      "RelativePath": "assets/index-DBVMBH9D.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-99LVJsYo.css"
+      "OriginalItemSpec": "wwwroot\\assets\\index-DBVMBH9D.js"
     },
     {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-CIn-G7MD.js",
+      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-Dl9Ze-Wy.css",
       "SourceId": "Library",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
       "BasePath": "_content/Library",
-      "RelativePath": "assets/index-CIn-G7MD.js",
+      "RelativePath": "assets/index-Dl9Ze-Wy.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-CIn-G7MD.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-Dl9Ze-Wy.css"
     },
     {
       "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\index.html",

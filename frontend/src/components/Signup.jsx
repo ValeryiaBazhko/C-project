@@ -12,7 +12,7 @@ const SignUpForm = ({onAuthSuccess = false}) => {
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
-    const BASE_URL = "https://localhost:5001";
+    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app";
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
@@ -59,6 +59,7 @@ const SignUpForm = ({onAuthSuccess = false}) => {
     };
 
     return (
+        <main className="main-content">
         <div className="signup-form-container">
             <h2>Create Account</h2>
             <form onSubmit={handleSubmit}>
@@ -103,7 +104,9 @@ const SignUpForm = ({onAuthSuccess = false}) => {
 
                 {error && <p style={{ color: "red" }}>{error}</p>}
             </form>
+            <p>Already have an account? <a href="/">Login</a></p>
         </div>
+        </main>
     );
 };
 

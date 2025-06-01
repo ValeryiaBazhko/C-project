@@ -36,6 +36,31 @@ public class LibraryContext : DbContext
         modelBuilder.Entity<Author>()
             .Property(a => a.DateOfBirth)
             .HasConversion(new Author.DateOnlyConverter());
+        
+        modelBuilder.Entity<User>()
+            .ToTable("Users"); 
+
+        modelBuilder.Entity<Book>()
+            .ToTable("Books");
+
+        modelBuilder.Entity<Author>()
+            .ToTable("Authors");
+
+        modelBuilder.Entity<Payment>()
+            .ToTable("Payments");
+
+        modelBuilder.Entity<Loan>()
+            .ToTable("Loans");
+        
+        modelBuilder.Entity<Loan>()
+            .HasOne(l => l.User)
+            .WithMany()
+            .HasForeignKey(l => l.UserId);
+
+        modelBuilder.Entity<Loan>()
+            .HasOne(l => l.Book)
+            .WithMany()
+            .HasForeignKey(l => l.BookId);
     }
     
     

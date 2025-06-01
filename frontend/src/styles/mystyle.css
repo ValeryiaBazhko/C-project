@@ -1,103 +1,487 @@
-body {
-    background-color: lightgreen;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: cursive;
-    color: black;
-    font-size: 25px;
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+    --danger-color: #e74c3c;
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --text-color: #333;
+    --text-light: #7f8c8d;
+    --background-color: #f9f9f9;
+    --card-bg: #ffffff;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --max-width: 1200px;
+    --content-width: 800px;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 100px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.main-content:has(.book-list-container) {
+    max-width: var(--max-width);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-color);
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 h2 {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 60px;
-    font-family: cursive;
-    margin-top: 0px;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    width: 100%;
 }
 
 p {
-    font-family: cursive;
-    font-size: medium;
-    color: black;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0 auto 25px;
     text-align: center;
-    font-size: 25px;
+    max-width: 700px;
 }
-
-span {
-    margin-left: 25px;
-}
-
-
-.container {
-    text-align: center;
-    font-size: 25px;
-
-}
-
 
 button {
-    font-size: 25px;
-    background-color: green;
+    font-size: 1.1rem;
+    background-color: var(--primary-color);
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 10px;
+    padding: 14px 28px;
+    margin: 20px 10px;
     cursor: pointer;
-    border-radius: 10px;
-    transition: background 0.3s ease;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    background-color: rgb(0, 164, 0);
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-
-input {
-    width: 200px;
-    margin-left: 90px;
-    height: 30px;
-    color: black;
-    background-color: aquamarine;
-    border: 1px solid #008080;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 20px;
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.info {
-    margin-left: 30px;
-    margin-top: 10px;
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
-select {
-    margin-left: 30px;
-    width: 200px;
-    height: 40px;
-    margin-top: 10px;
-    font-size: 20px;
-    background-color: aquamarine;
-    color: black;
+.form-container:has(.book-list-container) {
+    max-width: var(--max-width);
+    background: transparent;
+    box-shadow: none;
 }
 
-select:checked {}
-
-.pages {
-    background-color: rgb(130, 245, 200);
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    margin-left: 50px;
-    color: black;
-    margin-bottom: 70px;
+.book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.pages:hover {
-    background-color: aqua;
+.form-group {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group:has(.form-input[placeholder*="Search"]) {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-group:has(.form-input[placeholder*="Search"]) .form-input {
+    flex: 1;
+    margin: 0;
+    max-width: none;
+}
+
+.form-group:has(.form-input[placeholder*="Search"]) button {
+    margin: 0;
+    min-width: 120px;
+    height: 50px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: var(--dark-color);
+    width: 100%;
+    max-width: 450px;
+    text-align: left;
+}
+
+input, select, .form-input {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    background-color: white !important;
+    color: var(--text-color) !important;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.search-container input,
+.search-container select {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+.form-input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    height: auto;
+}
+
+input:focus, select:focus, .form-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+input::placeholder, .form-input::placeholder {
+    color: var(--text-light) !important;
+}
+
+.form-input.error {
+    border-color: var(--danger-color);
+}
+
+.error-message {
+    color: var(--danger-color);
+    font-size: 0.875rem;
+    margin-top: 8px;
+    width: 100%;
+    max-width: 450px;
+    text-align: left;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.submit-button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cancel-button {
+    background-color: var(--text-light);
+    color: var(--text-color);
+}
+
+.search-container {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.search-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.5rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-container .form-group {
+    margin-bottom: 0;
+    display: contents;
+}
+
+.search-container .form-group label {
+    grid-row: 1;
+    font-weight: 600;
+    color: var(--dark-color);
+    white-space: nowrap;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.search-container .form-input,
+.search-container input,
+.search-container select {
+    grid-row: 2;
+    width: 100% !important;
+    max-width: none !important;
+    height: 50px !important;
+    margin: 0 !important;
+    padding: 12px 18px !important;
+    font-size: 1.1rem !important;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    background-color: white !important;
+    color: var(--text-color) !important;
+}
+
+.search-container .form-actions {
+    margin-top: 0;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-container .form-actions button {
+    min-width: 140px;
+    margin: 0;
+}
+
+.book-list-container {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.book-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.book-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.book-info {
+    margin-bottom: 1rem;
+}
+
+.book-title {
+    color: var(--dark-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.book-year,
+.book-genre,
+.book-author {
+    color: var(--text-color);
+    margin: 0.3rem 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.book-genre em {
+    color: var(--text-light);
+}
+
+.book-author strong {
+    color: var(--dark-color);
+}
+
+.page-info {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.book-details {
+    background: var(--light-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.book-details .book-title {
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.book-details .book-info {
+    margin: 0.25rem 0;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.loan-summary {
+    background: var(--success-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin: 1.5rem 0;
+}
+
+.loan-summary h4 {
+    margin-bottom: 1rem;
+    color: white;
+    text-align: left;
+}
+
+.loan-summary p {
+    margin: 0.5rem 0;
+    text-align: left;
+    max-width: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        padding-bottom: 90px;
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 30px 15px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 30px 0;
+    }
+
+    form {
+        padding: 30px;
+        width: 100%;
+    }
+
+    button {
+        min-width: 160px;
+        padding: 12px 20px;
+    }
+
+    .search-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .search-fields {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .search-container .form-actions {
+        flex-direction: column;
+    }
+
+    .search-container .form-actions button {
+        width: 100%;
+    }
+
+    .book-card {
+        padding: 1rem;
+    }
+
+    .book-title {
+        font-size: 1.2rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .form-actions button {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    .page-info {
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 25px 20px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
