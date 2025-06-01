@@ -11,12 +11,14 @@ const LoansView = () => {
     const [totalPages, setTotalPages] = useState(1);
     const [loading, setLoading] = useState(true);
     const [statusFilter, setStatusFilter] = useState("");
+    const [successMessage, setSuccessMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
     const navigate = useNavigate();
 
     const user = getAuthUser();
     const isAdmin = user.role === true;
 
-    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app"; 
+    const BASE_URL = "https://11f9-95-159-226-202.ngrok-free.app"; // Update with your ngrok URL
 
     useEffect(() => {
         fetchLoans();
@@ -76,8 +78,8 @@ const LoansView = () => {
         }
     };
 
-    const returnLoan = async (loanId) => {
-        if (!window.confirm("Are you sure you want to mark this loan as returned?")) return;
+    const returnLoan = async (loanId, bookTitle) => {
+        if (!window.confirm(`Are you sure you want to return "${bookTitle}"?`)) return;
 
         try {
             const res = await fetch(`${BASE_URL}/api/loans/${loanId}/return`, {
@@ -87,18 +89,27 @@ const LoansView = () => {
                 }
             });
 
-            if (!res.ok) throw new Error("Failed to return loan");
+            const responseData = await res.json();
 
-            // Refresh the loans list
+            if (!res.ok) {
+                throw new Error(responseData.message ||
+                    responseData.details ||
+                    `Failed with status ${res.status}`);
+            }
+
+            setSuccessMessage(`Successfully returned "${bookTitle}"!`);
+            setErrorMessage("");
             fetchLoans();
+
         } catch (error) {
-            console.error("Error returning loan: ", error);
-            alert("Error returning loan. Please try again.");
+            console.error("Error returning loan:", error);
+            setErrorMessage(error.message || "Error returning book. Please try again.");
+            setSuccessMessage("");
         }
     };
 
-    const deleteLoan = async (loanId) => {
-        if (!window.confirm("Are you sure you want to delete this loan?")) return;
+    const deleteLoan = async (loanId, bookTitle) => {
+        if (!window.confirm(`Are you sure you want to delete the loan for "${bookTitle}"?`)) return;
 
         try {
             const res = await fetch(`${BASE_URL}/api/loans/${loanId}`, {
@@ -109,12 +120,19 @@ const LoansView = () => {
             });
 
             if (!res.ok) throw new Error("Failed to delete loan");
-
-            // Refresh the loans list
+            
+            setSuccessMessage(`Successfully deleted loan for "${bookTitle}"`);
+            setErrorMessage("");
+            
+            setTimeout(() => setSuccessMessage(""), 5000);
+            
             fetchLoans();
         } catch (error) {
             console.error("Error deleting loan: ", error);
-            alert("Error deleting loan. Please try again.");
+            setErrorMessage("Error deleting loan. Please try again.");
+            setSuccessMessage("");
+            
+            setTimeout(() => setErrorMessage(""), 5000);
         }
     };
 
@@ -150,6 +168,19 @@ const LoansView = () => {
             <div className="form-container">
                 <h2>{isAdmin ? "All Loans" : "My Loans"}</h2>
 
+                {/* Success/Error Messages */}
+                {successMessage && (
+                    <div className="success-message text-center mb-3">
+                        {successMessage}
+                    </div>
+                )}
+
+                {errorMessage && (
+                    <div className="error-message text-center mb-3">
+                        {errorMessage}
+                    </div>
+                )}
+
                 {isAdmin && (
                     <div className="search-container">
                         <div className="form-group">
@@ -179,9 +210,11 @@ const LoansView = () => {
                                         <p className="loan-detail">
                                             <strong>Author:</strong> {authors[loan.book?.authorId] || "Unknown"}
                                         </p>
-                                        <p className="loan-detail">
-                                            <strong>Borrower:</strong> {loan.user?.firstName} {loan.user?.lastName}
-                                        </p>
+                                        {isAdmin && (
+                                            <p className="loan-detail">
+                                                <strong>Borrower:</strong> {loan.user?.firstName} {loan.user?.lastName}
+                                            </p>
+                                        )}
                                         <p className="loan-detail">
                                             <strong>From:</strong> {formatDate(loan.fromDate)}
                                             <strong> To:</strong> {formatDate(loan.dueDate)}
@@ -208,7 +241,7 @@ const LoansView = () => {
                                         {loan.status.toLowerCase() !== 'returned' && (
                                             <button
                                                 className="submit-button"
-                                                onClick={() => returnLoan(loan.id)}
+                                                onClick={() => returnLoan(loan.id, loan.book?.title)}
                                             >
                                                 Return Book
                                             </button>
@@ -216,7 +249,7 @@ const LoansView = () => {
                                         {isAdmin && (
                                             <button
                                                 className="cancel-button"
-                                                onClick={() => deleteLoan(loan.id)}
+                                                onClick={() => deleteLoan(loan.id, loan.book?.title)}
                                                 style={{backgroundColor: 'var(--danger-color)', color: 'white'}}
                                             >
                                                 Delete

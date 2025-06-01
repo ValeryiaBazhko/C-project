@@ -12,53 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65f9a711-3101-4bac-b7f3-f4d29be6679c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/LoanController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LoanController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Loan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/LoanRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/LoanRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/LoanService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/LoanService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Library.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Library.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Library.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Library.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/Library.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/Library.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Library.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Library.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/assets/index-DBVMBH9D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/assets/index-Dl9Ze-Wy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/vite.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/LoansView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/LoansView.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +159,7 @@
       <workItem from="1742218607650" duration="20000" />
       <workItem from="1748288061986" duration="2133000" />
       <workItem from="1748290301557" duration="6143000" />
-      <workItem from="1748363014662" duration="28739000" />
+      <workItem from="1748363014662" duration="29177000" />
     </task>
     <servers />
   </component>
