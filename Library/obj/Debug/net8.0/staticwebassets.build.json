@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T1P3EfGvemJ2WIUYVlHmfT5RMNFCFts/Aljmzgvk1mk=",
+  "Hash": "neNUMPmdgmSBqcCfw75F+mNc000gSpQlnoB4GOp3hHc=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-DBVMBH9D.js",
-      "SourceId": "Library",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
-      "BasePath": "_content/Library",
-      "RelativePath": "assets/index-DBVMBH9D.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-DBVMBH9D.js"
-    },
     {
       "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-Dl9Ze-Wy.css",
       "SourceId": "Library",
@@ -53,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\index-Dl9Ze-Wy.css"
+    },
+    {
+      "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\assets\\index-hVyPjaSD.js",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "assets/index-hVyPjaSD.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-hVyPjaSD.js"
     },
     {
       "Identity": "C:\\Users\\lerab\\testna\\C-project\\Library\\wwwroot\\index.html",

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 public class LoanService
 {
     private readonly ILoanRepository _loanRepository;
-    private readonly LibraryContext _context;
+    private readonly LibraryContext _context; // Add context for fetching entities
 
     public LoanService(ILoanRepository loanRepository, LibraryContext context)
     {
@@ -40,6 +40,7 @@ public class LoanService
 
     public async Task<Loan> AddLoan(Loan loan)
     {
+        // Validate IDs first
         if (loan.UserId <= 0)
         {
             throw new ValidationException("Valid User ID is required");
@@ -49,7 +50,8 @@ public class LoanService
         {
             throw new ValidationException("Valid Book ID is required");
         }
-        
+
+        // Check if entities exist
         var user = await _context.Users.FindAsync(loan.UserId);
         if (user == null)
         {
@@ -61,7 +63,8 @@ public class LoanService
         {
             throw new ValidationException($"Book with ID {loan.BookId} not found");
         }
-        
+
+        // Set defaults
         if (loan.CheckoutDate == default)
         {
             loan.CheckoutDate = DateTime.Now;
@@ -81,8 +84,7 @@ public class LoanService
         {
             loan.Status = "Active";
         }
-
-        // Basic validation
+        
         if (loan.FromDate > loan.DueDate)
         {
             throw new ValidationException("From date cannot be after due date");
@@ -147,16 +149,25 @@ public class LoanService
 
     public async Task<bool> ReturnLoan(int loanId)
     {
-        var loan = await _loanRepository.GetLoanById(loanId);
+        var loan = await _context.Loans.FindAsync(loanId);
         if (loan == null)
         {
             throw new ValidationException("Loan not found");
         }
-
+        
         loan.Status = "Returned";
-        loan.ReturnDate = DateTime.Now;
+        loan.ReturnDate = DateTime.UtcNow; 
 
-        return await _loanRepository.UpdateLoan(loan);
+        try
+        {
+            await _context.SaveChangesAsync();
+            return true;
+        }
+        catch (DbUpdateException ex)
+        {
+            Console.WriteLine($"Error saving loan: {ex.InnerException?.Message}");
+            throw new ValidationException("Error updating loan in database");
+        }
     }
 
     private void ValidateLoan(Loan loan)

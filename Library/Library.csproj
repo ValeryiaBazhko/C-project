@@ -24,12 +24,12 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
     <!-- Align Npgsql version with EF Core 8.0.x -->
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="TestProject1\**"/>
+    <Content Remove="TestProject1\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,6 +50,7 @@
     <_ContentIncludedByDefault Remove="wwwroot\assets\index-mvgwjP9T.css" />
     <_ContentIncludedByDefault Remove="wwwroot\assets\index-BukqVXoH.js" />
     <_ContentIncludedByDefault Remove="wwwroot\assets\index-Dl9Ze-Wy.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\index-BOJtRCJj.js" />
   </ItemGroup>
 
   <Target Name="NpmInstall" BeforeTargets="Build" Condition="!Exists('$(ProjectDir)..\frontend\node_modules')">
@@ -71,11 +72,9 @@
     <MakeDir Directories="$(WwwrootDir)" Condition="!Exists('$(WwwrootDir)')" />
     
     <Message Importance="high" Text="Copying React files from $(ReactBuildDir) to $(WwwrootDir)" />
-    <Exec Command="xcopy /Y /E /I &quot;$(ReactBuildDir)*&quot; &quot;$(WwwrootDir)&quot;" 
-          Condition="Exists('$(ReactBuildDir)')" />
+    <Exec Command="xcopy /Y /E /I &quot;$(ReactBuildDir)*&quot; &quot;$(WwwrootDir)&quot;" Condition="Exists('$(ReactBuildDir)')" />
           
-    <Warning Text="React build directory not found at $(ReactBuildDir)" 
-             Condition="!Exists('$(ReactBuildDir)')" />
+    <Warning Text="React build directory not found at $(ReactBuildDir)" Condition="!Exists('$(ReactBuildDir)')" />
   </Target>
 
 </Project>

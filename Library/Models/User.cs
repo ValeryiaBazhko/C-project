@@ -12,5 +12,5 @@ public class User
     
     public string Email { get; set; }
     
-    public bool Role { get; set; }
+    public bool Role { get; set; } = false;
 }

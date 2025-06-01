@@ -158,7 +158,7 @@ namespace Library.Controllers
             }
         }
 
-        
+        // PUT: api/Loans/5/return
         [HttpPut("{id}/return")]
         public async Task<IActionResult> ReturnLoan(int id)
         {
@@ -173,10 +173,25 @@ namespace Library.Controllers
             }
             catch (ValidationException ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new { 
+                    message = "Database error while returning loan",
+                    details = ex.InnerException?.Message 
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { 
+                    message = "Unexpected error while returning loan",
+                    details = ex.Message 
+                });
             }
         }
-        
+
+        // DELETE: api/Loans/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLoan(int id)
         {

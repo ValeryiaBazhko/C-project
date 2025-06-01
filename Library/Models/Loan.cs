@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library.Models;
 
@@ -8,12 +9,16 @@ public class Loan
     
     public string Status { get; set; }
     
+    [Column(TypeName = "timestamp with time zone")]
     public DateTime FromDate { get; set; }
     
+    [Column(TypeName = "timestamp with time zone")]
     public DateTime DueDate { get; set; }
     
+    [Column(TypeName = "timestamp with time zone")]
     public DateTime? ReturnDate { get; set; }
     
+    [Column(TypeName = "timestamp with time zone")]
     public DateTime CheckoutDate { get; set; }
     
     public User User { get; set; }

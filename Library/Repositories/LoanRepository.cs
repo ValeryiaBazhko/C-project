@@ -48,17 +48,20 @@ public class LoanRepository : ILoanRepository
     {
         var existingLoan = await _context.Loans.FindAsync(loan.Id);
         if (existingLoan == null) return false;
-
+        
         existingLoan.Status = loan.Status;
-        existingLoan.FromDate = loan.FromDate;
-        existingLoan.DueDate = loan.DueDate;
-        existingLoan.ReturnDate = loan.ReturnDate;
-        existingLoan.CheckoutDate = loan.CheckoutDate;
-        existingLoan.User = loan.User;
-        existingLoan.Book = loan.Book;
-
-        await _context.SaveChangesAsync();
-        return true;
+        existingLoan.ReturnDate = loan.ReturnDate?.ToUniversalTime();
+        
+        try
+        {
+            await _context.SaveChangesAsync();
+            return true;
+        }
+        catch (DbUpdateException ex)
+        {
+            Console.WriteLine($"Update error: {ex.InnerException?.Message}");
+            throw;
+        }
     }
 
     public async Task<bool> DeleteLoan(int id)
@@ -116,4 +119,6 @@ public class LoanRepository : ILoanRepository
             .OrderBy(l => l.DueDate)
             .ToListAsync();
     }
+    
+    
 }
